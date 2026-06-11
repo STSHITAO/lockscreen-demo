@@ -1,0 +1,8521 @@
+[
+  {
+    "assetId": "doodle-001",
+    "file": "doodle-01.svg",
+    "src": "/materials/svg/doodle-01.svg",
+    "name": {
+      "zh": "眼镜橘猫",
+      "en": "Glasses cat"
+    },
+    "description": "粗黑描边的眼镜橘猫扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "cat"
+    ],
+    "keywords": [
+      "猫",
+      "橘猫",
+      "眼镜",
+      "眼镜橘猫",
+      "glasses cat"
+    ],
+    "themes": [
+      "cute",
+      "pet"
+    ],
+    "moods": [
+      "cute",
+      "playful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "orange",
+      "yellow",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 24
+  },
+  {
+    "assetId": "doodle-002",
+    "file": "doodle-02.svg",
+    "src": "/materials/svg/doodle-02.svg",
+    "name": {
+      "zh": "灰色猫咪",
+      "en": "Gray cat"
+    },
+    "description": "粗黑描边的灰色猫咪扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "cat"
+    ],
+    "keywords": [
+      "猫",
+      "灰猫",
+      "宠物",
+      "灰色猫咪",
+      "gray cat"
+    ],
+    "themes": [
+      "cute",
+      "pet"
+    ],
+    "moods": [
+      "cute",
+      "calm"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "gray",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 14
+  },
+  {
+    "assetId": "doodle-003",
+    "file": "doodle-03.svg",
+    "src": "/materials/svg/doodle-03.svg",
+    "name": {
+      "zh": "胡萝卜兔",
+      "en": "Carrot rabbit"
+    },
+    "description": "粗黑描边的胡萝卜兔扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "rabbit"
+    ],
+    "keywords": [
+      "兔子",
+      "胡萝卜",
+      "蔬菜",
+      "胡萝卜兔",
+      "carrot rabbit"
+    ],
+    "themes": [
+      "cute",
+      "nature"
+    ],
+    "moods": [
+      "cute",
+      "playful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "green",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 22
+  },
+  {
+    "assetId": "doodle-004",
+    "file": "doodle-04.svg",
+    "src": "/materials/svg/doodle-04.svg",
+    "name": {
+      "zh": "柠檬",
+      "en": "Lemon"
+    },
+    "description": "粗黑描边的柠檬扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "lemon"
+    ],
+    "keywords": [
+      "柠檬",
+      "水果",
+      "酸味",
+      "lemon"
+    ],
+    "themes": [
+      "food",
+      "nature"
+    ],
+    "moods": [
+      "fresh",
+      "cheerful"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "green",
+      "yellow",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 31
+  },
+  {
+    "assetId": "doodle-005",
+    "file": "doodle-05.svg",
+    "src": "/materials/svg/doodle-05.svg",
+    "name": {
+      "zh": "汉堡",
+      "en": "Hamburger"
+    },
+    "description": "粗黑描边的汉堡扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "burger"
+    ],
+    "keywords": [
+      "汉堡",
+      "快餐",
+      "食物",
+      "hamburger"
+    ],
+    "themes": [
+      "food"
+    ],
+    "moods": [
+      "cheerful",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "yellow",
+      "orange",
+      "brown",
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 11
+  },
+  {
+    "assetId": "doodle-006",
+    "file": "doodle-06.svg",
+    "src": "/materials/svg/doodle-06.svg",
+    "name": {
+      "zh": "绿色金字塔",
+      "en": "Green pyramid"
+    },
+    "description": "粗黑描边的绿色金字塔扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "symbol",
+    "subjects": [
+      "pyramid"
+    ],
+    "keywords": [
+      "金字塔",
+      "三角形",
+      "几何",
+      "绿色金字塔",
+      "green pyramid"
+    ],
+    "themes": [
+      "abstract",
+      "geometry"
+    ],
+    "moods": [
+      "calm",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 8
+  },
+  {
+    "assetId": "doodle-007",
+    "file": "doodle-07.svg",
+    "src": "/materials/svg/doodle-07.svg",
+    "name": {
+      "zh": "仙人掌",
+      "en": "Cactus"
+    },
+    "description": "粗黑描边的仙人掌扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "nature",
+    "subjects": [
+      "cactus"
+    ],
+    "keywords": [
+      "仙人掌",
+      "植物",
+      "沙漠",
+      "cactus"
+    ],
+    "themes": [
+      "nature",
+      "desert"
+    ],
+    "moods": [
+      "playful",
+      "energetic"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 40
+  },
+  {
+    "assetId": "doodle-008",
+    "file": "doodle-08.svg",
+    "src": "/materials/svg/doodle-08.svg",
+    "name": {
+      "zh": "蓝发男孩",
+      "en": "Blue-haired boy"
+    },
+    "description": "粗黑描边的蓝发男孩扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "boy"
+    ],
+    "keywords": [
+      "男孩",
+      "蓝色头发",
+      "头像",
+      "蓝发男孩",
+      "blue-haired boy"
+    ],
+    "themes": [
+      "people",
+      "cute"
+    ],
+    "moods": [
+      "cute",
+      "calm"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "indigo",
+      "tan",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 21
+  },
+  {
+    "assetId": "doodle-009",
+    "file": "doodle-09.svg",
+    "src": "/materials/svg/doodle-09.svg",
+    "name": {
+      "zh": "彩色运动鞋",
+      "en": "Colorful sneaker"
+    },
+    "description": "粗黑描边的彩色运动鞋扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "fashion",
+    "subjects": [
+      "sneaker"
+    ],
+    "keywords": [
+      "鞋子",
+      "运动鞋",
+      "潮流",
+      "彩色运动鞋",
+      "colorful sneaker"
+    ],
+    "themes": [
+      "fashion",
+      "sport"
+    ],
+    "moods": [
+      "energetic",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "purple",
+      "green",
+      "indigo",
+      "yellow",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 41
+  },
+  {
+    "assetId": "doodle-010",
+    "file": "doodle-10.svg",
+    "src": "/materials/svg/doodle-10.svg",
+    "name": {
+      "zh": "绿色袜子",
+      "en": "Green sock"
+    },
+    "description": "粗黑描边的绿色袜子扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "fashion",
+    "subjects": [
+      "sock"
+    ],
+    "keywords": [
+      "袜子",
+      "绿色",
+      "服饰",
+      "绿色袜子",
+      "green sock"
+    ],
+    "themes": [
+      "fashion",
+      "cozy"
+    ],
+    "moods": [
+      "calm",
+      "cozy"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 4
+  },
+  {
+    "assetId": "doodle-100",
+    "file": "doodle-100.svg",
+    "src": "/materials/svg/doodle-100.svg",
+    "name": {
+      "zh": "棕色松鼠",
+      "en": "Brown squirrel"
+    },
+    "description": "粗黑描边的棕色松鼠扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "squirrel"
+    ],
+    "keywords": [
+      "松鼠",
+      "尾巴",
+      "森林动物",
+      "棕色松鼠",
+      "brown squirrel"
+    ],
+    "themes": [
+      "nature",
+      "cute"
+    ],
+    "moods": [
+      "cute",
+      "playful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "brown",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 16
+  },
+  {
+    "assetId": "doodle-101",
+    "file": "doodle-101.svg",
+    "src": "/materials/svg/doodle-101.svg",
+    "name": {
+      "zh": "棕色牛角怪",
+      "en": "Brown horned monster"
+    },
+    "description": "粗黑描边的棕色牛角怪扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "horned-monster"
+    ],
+    "keywords": [
+      "怪兽",
+      "牛角",
+      "棕色",
+      "棕色牛角怪",
+      "brown horned monster"
+    ],
+    "themes": [
+      "monster",
+      "fantasy"
+    ],
+    "moods": [
+      "funny",
+      "playful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "brown",
+      "red",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 23
+  },
+  {
+    "assetId": "doodle-102",
+    "file": "doodle-102.svg",
+    "src": "/materials/svg/doodle-102.svg",
+    "name": {
+      "zh": "绿色独眼毛球",
+      "en": "Green eyeball monster"
+    },
+    "description": "粗黑描边的绿色独眼毛球扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "eyeball-monster"
+    ],
+    "keywords": [
+      "独眼怪",
+      "毛球",
+      "绿色",
+      "绿色独眼毛球",
+      "green eyeball monster"
+    ],
+    "themes": [
+      "monster",
+      "fantasy"
+    ],
+    "moods": [
+      "mysterious",
+      "funny"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "green",
+      "light-blue",
+      "blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 16
+  },
+  {
+    "assetId": "doodle-103",
+    "file": "doodle-103.svg",
+    "src": "/materials/svg/doodle-103.svg",
+    "name": {
+      "zh": "切片菠萝",
+      "en": "Sliced pineapple"
+    },
+    "description": "粗黑描边的切片菠萝扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "pineapple"
+    ],
+    "keywords": [
+      "菠萝",
+      "水果",
+      "切片",
+      "切片菠萝",
+      "sliced pineapple"
+    ],
+    "themes": [
+      "food",
+      "summer"
+    ],
+    "moods": [
+      "fresh",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "tan",
+      "orange",
+      "green",
+      "yellow",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 39
+  },
+  {
+    "assetId": "doodle-104",
+    "file": "doodle-104.svg",
+    "src": "/materials/svg/doodle-104.svg",
+    "name": {
+      "zh": "棕熊头像",
+      "en": "Brown bear head"
+    },
+    "description": "粗黑描边的棕熊头像扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "bear"
+    ],
+    "keywords": [
+      "熊",
+      "头像",
+      "棕色",
+      "棕熊头像",
+      "brown bear head"
+    ],
+    "themes": [
+      "animal",
+      "cute"
+    ],
+    "moods": [
+      "calm",
+      "cute"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "brown",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 11
+  },
+  {
+    "assetId": "doodle-105",
+    "file": "doodle-105.svg",
+    "src": "/materials/svg/doodle-105.svg",
+    "name": {
+      "zh": "灰色触控笔",
+      "en": "Gray stylus"
+    },
+    "description": "粗黑描边的灰色触控笔扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "technology",
+    "subjects": [
+      "stylus"
+    ],
+    "keywords": [
+      "触控笔",
+      "数位笔",
+      "科技",
+      "灰色触控笔",
+      "gray stylus"
+    ],
+    "themes": [
+      "technology",
+      "art"
+    ],
+    "moods": [
+      "creative",
+      "calm"
+    ],
+    "roles": [
+      "sticker",
+      "icon"
+    ],
+    "colors": [
+      "gray",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 11
+  },
+  {
+    "assetId": "doodle-106",
+    "file": "doodle-106.svg",
+    "src": "/materials/svg/doodle-106.svg",
+    "name": {
+      "zh": "绿色折叠纸",
+      "en": "Green folded paper"
+    },
+    "description": "粗黑描边的绿色折叠纸扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "object",
+    "subjects": [
+      "folded-paper"
+    ],
+    "keywords": [
+      "纸张",
+      "折叠",
+      "绿色",
+      "绿色折叠纸",
+      "green folded paper"
+    ],
+    "themes": [
+      "school",
+      "abstract"
+    ],
+    "moods": [
+      "calm",
+      "creative"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 11
+  },
+  {
+    "assetId": "doodle-107",
+    "file": "doodle-107.svg",
+    "src": "/materials/svg/doodle-107.svg",
+    "name": {
+      "zh": "摇滚手势",
+      "en": "Rock hand gesture"
+    },
+    "description": "粗黑描边的摇滚手势扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "symbol",
+    "subjects": [
+      "hand-gesture"
+    ],
+    "keywords": [
+      "手势",
+      "摇滚",
+      "手掌",
+      "摇滚手势",
+      "rock hand gesture"
+    ],
+    "themes": [
+      "music",
+      "funny"
+    ],
+    "moods": [
+      "energetic",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "icon"
+    ],
+    "colors": [
+      "pink",
+      "tan",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 10
+  },
+  {
+    "assetId": "doodle-108",
+    "file": "doodle-108.svg",
+    "src": "/materials/svg/doodle-108.svg",
+    "name": {
+      "zh": "篝火",
+      "en": "Campfire"
+    },
+    "description": "粗黑描边的篝火扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "nature",
+    "subjects": [
+      "campfire"
+    ],
+    "keywords": [
+      "篝火",
+      "火焰",
+      "木柴",
+      "campfire"
+    ],
+    "themes": [
+      "nature",
+      "adventure"
+    ],
+    "moods": [
+      "cozy",
+      "energetic"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "brown",
+      "yellow",
+      "orange",
+      "tan",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 20
+  },
+  {
+    "assetId": "doodle-109",
+    "file": "doodle-109.svg",
+    "src": "/materials/svg/doodle-109.svg",
+    "name": {
+      "zh": "复古手机",
+      "en": "Retro mobile phone"
+    },
+    "description": "粗黑描边的复古手机扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "technology",
+    "subjects": [
+      "mobile-phone"
+    ],
+    "keywords": [
+      "手机",
+      "按键",
+      "复古",
+      "复古手机",
+      "retro mobile phone"
+    ],
+    "themes": [
+      "technology",
+      "retro"
+    ],
+    "moods": [
+      "calm",
+      "nostalgic"
+    ],
+    "roles": [
+      "sticker",
+      "icon"
+    ],
+    "colors": [
+      "light-blue",
+      "gray",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 36
+  },
+  {
+    "assetId": "doodle-011",
+    "file": "doodle-11.svg",
+    "src": "/materials/svg/doodle-11.svg",
+    "name": {
+      "zh": "蓝色毛怪",
+      "en": "Blue furry monster"
+    },
+    "description": "粗黑描边的蓝色毛怪扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "monster"
+    ],
+    "keywords": [
+      "怪兽",
+      "蓝色",
+      "毛绒",
+      "蓝色毛怪",
+      "blue furry monster"
+    ],
+    "themes": [
+      "monster",
+      "cute"
+    ],
+    "moods": [
+      "energetic",
+      "funny"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "blue",
+      "yellow",
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 46
+  },
+  {
+    "assetId": "doodle-110",
+    "file": "doodle-110.svg",
+    "src": "/materials/svg/doodle-110.svg",
+    "name": {
+      "zh": "复古电视",
+      "en": "Retro television"
+    },
+    "description": "粗黑描边的复古电视扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "technology",
+    "subjects": [
+      "television"
+    ],
+    "keywords": [
+      "电视",
+      "复古",
+      "屏幕",
+      "复古电视",
+      "retro television"
+    ],
+    "themes": [
+      "technology",
+      "retro"
+    ],
+    "moods": [
+      "cheerful",
+      "nostalgic"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "gray",
+      "light-blue",
+      "brown",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 24
+  },
+  {
+    "assetId": "doodle-112",
+    "file": "doodle-112.svg",
+    "src": "/materials/svg/doodle-112.svg",
+    "name": {
+      "zh": "睡觉的棕猫",
+      "en": "Sleeping brown cat"
+    },
+    "description": "粗黑描边的睡觉的棕猫扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "cat"
+    ],
+    "keywords": [
+      "猫",
+      "睡觉",
+      "宠物",
+      "睡觉的棕猫",
+      "sleeping brown cat"
+    ],
+    "themes": [
+      "pet",
+      "cozy"
+    ],
+    "moods": [
+      "calm",
+      "cozy"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "pink",
+      "brown",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 12
+  },
+  {
+    "assetId": "doodle-113",
+    "file": "doodle-113.svg",
+    "src": "/materials/svg/doodle-113.svg",
+    "name": {
+      "zh": "茶包",
+      "en": "Tea bag"
+    },
+    "description": "粗黑描边的茶包扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "tea-bag"
+    ],
+    "keywords": [
+      "茶包",
+      "茶叶",
+      "饮品",
+      "tea bag"
+    ],
+    "themes": [
+      "food",
+      "cozy"
+    ],
+    "moods": [
+      "calm",
+      "cozy"
+    ],
+    "roles": [
+      "sticker",
+      "icon"
+    ],
+    "colors": [
+      "brown",
+      "tan",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 13
+  },
+  {
+    "assetId": "doodle-114",
+    "file": "doodle-114.svg",
+    "src": "/materials/svg/doodle-114.svg",
+    "name": {
+      "zh": "紫色水母",
+      "en": "Purple jellyfish"
+    },
+    "description": "粗黑描边的紫色水母扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "jellyfish"
+    ],
+    "keywords": [
+      "水母",
+      "海洋",
+      "紫色",
+      "紫色水母",
+      "purple jellyfish"
+    ],
+    "themes": [
+      "ocean",
+      "fantasy"
+    ],
+    "moods": [
+      "calm",
+      "mysterious"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "orange",
+      "yellow",
+      "purple",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 32
+  },
+  {
+    "assetId": "doodle-115",
+    "file": "doodle-115.svg",
+    "src": "/materials/svg/doodle-115.svg",
+    "name": {
+      "zh": "浣熊",
+      "en": "Raccoon"
+    },
+    "description": "粗黑描边的浣熊扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "raccoon"
+    ],
+    "keywords": [
+      "浣熊",
+      "森林动物",
+      "灰色",
+      "raccoon"
+    ],
+    "themes": [
+      "nature",
+      "cute"
+    ],
+    "moods": [
+      "calm",
+      "cute"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "gray",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 36
+  },
+  {
+    "assetId": "doodle-116",
+    "file": "doodle-116.svg",
+    "src": "/materials/svg/doodle-116.svg",
+    "name": {
+      "zh": "蓝色冰棒",
+      "en": "Blue popsicle"
+    },
+    "description": "粗黑描边的蓝色冰棒扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "popsicle"
+    ],
+    "keywords": [
+      "冰棒",
+      "蓝色",
+      "甜品",
+      "蓝色冰棒",
+      "blue popsicle"
+    ],
+    "themes": [
+      "food",
+      "summer"
+    ],
+    "moods": [
+      "fresh",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "blue",
+      "green",
+      "yellow",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 26
+  },
+  {
+    "assetId": "doodle-117",
+    "file": "doodle-117.svg",
+    "src": "/materials/svg/doodle-117.svg",
+    "name": {
+      "zh": "爱心棒棒糖",
+      "en": "Heart lollipop"
+    },
+    "description": "粗黑描边的爱心棒棒糖扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "lollipop"
+    ],
+    "keywords": [
+      "棒棒糖",
+      "爱心",
+      "糖果",
+      "爱心棒棒糖",
+      "heart lollipop"
+    ],
+    "themes": [
+      "food",
+      "romance"
+    ],
+    "moods": [
+      "romantic",
+      "cute"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "tan",
+      "pink",
+      "red",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 8
+  },
+  {
+    "assetId": "doodle-118",
+    "file": "doodle-118.svg",
+    "src": "/materials/svg/doodle-118.svg",
+    "name": {
+      "zh": "菠萝",
+      "en": "Pineapple"
+    },
+    "description": "粗黑描边的菠萝扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "pineapple"
+    ],
+    "keywords": [
+      "菠萝",
+      "水果",
+      "热带",
+      "pineapple"
+    ],
+    "themes": [
+      "food",
+      "summer"
+    ],
+    "moods": [
+      "fresh",
+      "cheerful"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "tan",
+      "orange",
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 51
+  },
+  {
+    "assetId": "doodle-119",
+    "file": "doodle-119.svg",
+    "src": "/materials/svg/doodle-119.svg",
+    "name": {
+      "zh": "星星对话框",
+      "en": "Star speech bubble"
+    },
+    "description": "粗黑描边的星星对话框扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "callout",
+    "subjects": [
+      "star-callout"
+    ],
+    "keywords": [
+      "星星",
+      "对话框",
+      "绿色",
+      "星星对话框",
+      "star speech bubble"
+    ],
+    "themes": [
+      "social",
+      "cute"
+    ],
+    "moods": [
+      "cheerful",
+      "playful"
+    ],
+    "roles": [
+      "callout",
+      "sticker"
+    ],
+    "colors": [
+      "green",
+      "yellow",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top",
+      "center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 7
+  },
+  {
+    "assetId": "doodle-012",
+    "file": "doodle-12.svg",
+    "src": "/materials/svg/doodle-12.svg",
+    "name": {
+      "zh": "黄色小鸡",
+      "en": "Yellow chick"
+    },
+    "description": "粗黑描边的黄色小鸡扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "chick"
+    ],
+    "keywords": [
+      "小鸡",
+      "鸟",
+      "黄色",
+      "黄色小鸡",
+      "yellow chick"
+    ],
+    "themes": [
+      "cute",
+      "nature"
+    ],
+    "moods": [
+      "cute",
+      "cheerful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "orange",
+      "yellow",
+      "red",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 25
+  },
+  {
+    "assetId": "doodle-120",
+    "file": "doodle-120.svg",
+    "src": "/materials/svg/doodle-120.svg",
+    "name": {
+      "zh": "披萨",
+      "en": "Pizza slice"
+    },
+    "description": "粗黑描边的披萨扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "pizza"
+    ],
+    "keywords": [
+      "披萨",
+      "芝士",
+      "快餐",
+      "pizza slice"
+    ],
+    "themes": [
+      "food"
+    ],
+    "moods": [
+      "cheerful",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "green",
+      "red",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 24
+  },
+  {
+    "assetId": "doodle-122",
+    "file": "doodle-122.svg",
+    "src": "/materials/svg/doodle-122.svg",
+    "name": {
+      "zh": "微笑云朵",
+      "en": "Smiling cloud"
+    },
+    "description": "粗黑描边的微笑云朵扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "nature",
+    "subjects": [
+      "cloud"
+    ],
+    "keywords": [
+      "云朵",
+      "天气",
+      "蓝色",
+      "微笑云朵",
+      "smiling cloud"
+    ],
+    "themes": [
+      "weather",
+      "nature"
+    ],
+    "moods": [
+      "cheerful",
+      "calm"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "pink",
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 14
+  },
+  {
+    "assetId": "doodle-123",
+    "file": "doodle-123.svg",
+    "src": "/materials/svg/doodle-123.svg",
+    "name": {
+      "zh": "樱桃纸杯蛋糕",
+      "en": "Cherry cupcake"
+    },
+    "description": "粗黑描边的樱桃纸杯蛋糕扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "cupcake"
+    ],
+    "keywords": [
+      "纸杯蛋糕",
+      "樱桃",
+      "甜品",
+      "樱桃纸杯蛋糕",
+      "cherry cupcake"
+    ],
+    "themes": [
+      "food",
+      "cute"
+    ],
+    "moods": [
+      "cute",
+      "cheerful"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "brown",
+      "green",
+      "red",
+      "pink",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 25
+  },
+  {
+    "assetId": "doodle-124",
+    "file": "doodle-124.svg",
+    "src": "/materials/svg/doodle-124.svg",
+    "name": {
+      "zh": "彩虹",
+      "en": "Rainbow"
+    },
+    "description": "粗黑描边的彩虹扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "nature",
+    "subjects": [
+      "rainbow"
+    ],
+    "keywords": [
+      "彩虹",
+      "云朵",
+      "天气",
+      "rainbow"
+    ],
+    "themes": [
+      "weather",
+      "nature"
+    ],
+    "moods": [
+      "cheerful",
+      "hopeful"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "red",
+      "blue",
+      "green",
+      "yellow",
+      "indigo",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 9
+  },
+  {
+    "assetId": "doodle-125",
+    "file": "doodle-125.svg",
+    "src": "/materials/svg/doodle-125.svg",
+    "name": {
+      "zh": "蓝色钻石",
+      "en": "Blue diamond"
+    },
+    "description": "粗黑描边的蓝色钻石扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "symbol",
+    "subjects": [
+      "diamond"
+    ],
+    "keywords": [
+      "钻石",
+      "宝石",
+      "蓝色",
+      "蓝色钻石",
+      "blue diamond"
+    ],
+    "themes": [
+      "luxury",
+      "geometry"
+    ],
+    "moods": [
+      "mysterious",
+      "elegant"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "blue",
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 9
+  },
+  {
+    "assetId": "doodle-126",
+    "file": "doodle-126.svg",
+    "src": "/materials/svg/doodle-126.svg",
+    "name": {
+      "zh": "绿色右箭头",
+      "en": "Green right arrow"
+    },
+    "description": "粗黑描边的绿色右箭头扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "symbol",
+    "subjects": [
+      "arrow"
+    ],
+    "keywords": [
+      "箭头",
+      "方向",
+      "绿色",
+      "绿色右箭头",
+      "green right arrow"
+    ],
+    "themes": [
+      "navigation",
+      "abstract"
+    ],
+    "moods": [
+      "energetic",
+      "playful"
+    ],
+    "roles": [
+      "icon",
+      "decoration"
+    ],
+    "colors": [
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 2
+  },
+  {
+    "assetId": "doodle-128",
+    "file": "doodle-128.svg",
+    "src": "/materials/svg/doodle-128.svg",
+    "name": {
+      "zh": "绿色旋涡",
+      "en": "Green swirl"
+    },
+    "description": "粗黑描边的绿色旋涡扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "symbol",
+    "subjects": [
+      "swirl"
+    ],
+    "keywords": [
+      "旋涡",
+      "绿色",
+      "波浪",
+      "绿色旋涡",
+      "green swirl"
+    ],
+    "themes": [
+      "abstract",
+      "nature"
+    ],
+    "moods": [
+      "calm",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "brown",
+      "red",
+      "pink",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 8
+  },
+  {
+    "assetId": "doodle-129",
+    "file": "doodle-129.svg",
+    "src": "/materials/svg/doodle-129.svg",
+    "name": {
+      "zh": "绿色波浪",
+      "en": "Green wave"
+    },
+    "description": "粗黑描边的绿色波浪扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "nature",
+    "subjects": [
+      "wave"
+    ],
+    "keywords": [
+      "波浪",
+      "绿色",
+      "旋涡",
+      "绿色波浪",
+      "green wave"
+    ],
+    "themes": [
+      "nature",
+      "ocean",
+      "abstract"
+    ],
+    "moods": [
+      "calm",
+      "energetic"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 12
+  },
+  {
+    "assetId": "doodle-013",
+    "file": "doodle-13.svg",
+    "src": "/materials/svg/doodle-13.svg",
+    "name": {
+      "zh": "红色花朵",
+      "en": "Red flower"
+    },
+    "description": "粗黑描边的红色花朵扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "nature",
+    "subjects": [
+      "flower"
+    ],
+    "keywords": [
+      "花",
+      "红花",
+      "植物",
+      "红色花朵",
+      "red flower"
+    ],
+    "themes": [
+      "nature",
+      "romance"
+    ],
+    "moods": [
+      "cheerful",
+      "romantic"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "brown",
+      "orange",
+      "red",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 43
+  },
+  {
+    "assetId": "doodle-130",
+    "file": "doodle-130.svg",
+    "src": "/materials/svg/doodle-130.svg",
+    "name": {
+      "zh": "樱桃",
+      "en": "Cherries"
+    },
+    "description": "粗黑描边的樱桃扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "cherry"
+    ],
+    "keywords": [
+      "樱桃",
+      "水果",
+      "红色",
+      "cherries"
+    ],
+    "themes": [
+      "food",
+      "nature"
+    ],
+    "moods": [
+      "fresh",
+      "romantic"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "red",
+      "green",
+      "pink",
+      "brown",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 12
+  },
+  {
+    "assetId": "doodle-131",
+    "file": "doodle-131.svg",
+    "src": "/materials/svg/doodle-131.svg",
+    "name": {
+      "zh": "黄色信封",
+      "en": "Yellow envelope"
+    },
+    "description": "粗黑描边的黄色信封扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "object",
+    "subjects": [
+      "envelope"
+    ],
+    "keywords": [
+      "信封",
+      "邮件",
+      "消息",
+      "黄色信封",
+      "yellow envelope"
+    ],
+    "themes": [
+      "communication",
+      "social"
+    ],
+    "moods": [
+      "calm",
+      "cheerful"
+    ],
+    "roles": [
+      "sticker",
+      "icon"
+    ],
+    "colors": [
+      "brown",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 9
+  },
+  {
+    "assetId": "doodle-132",
+    "file": "doodle-132.svg",
+    "src": "/materials/svg/doodle-132.svg",
+    "name": {
+      "zh": "西瓜",
+      "en": "Watermelon slice"
+    },
+    "description": "粗黑描边的西瓜扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "watermelon"
+    ],
+    "keywords": [
+      "西瓜",
+      "水果",
+      "夏天",
+      "watermelon slice"
+    ],
+    "themes": [
+      "food",
+      "summer"
+    ],
+    "moods": [
+      "fresh",
+      "cheerful"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "red",
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 9
+  },
+  {
+    "assetId": "doodle-133",
+    "file": "doodle-133.svg",
+    "src": "/materials/svg/doodle-133.svg",
+    "name": {
+      "zh": "彩色棒棒糖",
+      "en": "Colorful lollipop"
+    },
+    "description": "粗黑描边的彩色棒棒糖扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "lollipop"
+    ],
+    "keywords": [
+      "棒棒糖",
+      "糖果",
+      "彩色",
+      "彩色棒棒糖",
+      "colorful lollipop"
+    ],
+    "themes": [
+      "food",
+      "cute"
+    ],
+    "moods": [
+      "cheerful",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "red",
+      "yellow",
+      "green",
+      "blue",
+      "tan",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 30
+  },
+  {
+    "assetId": "doodle-134",
+    "file": "doodle-134.svg",
+    "src": "/materials/svg/doodle-134.svg",
+    "name": {
+      "zh": "爆米花",
+      "en": "Popcorn"
+    },
+    "description": "粗黑描边的爆米花扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "popcorn"
+    ],
+    "keywords": [
+      "爆米花",
+      "电影",
+      "零食",
+      "popcorn"
+    ],
+    "themes": [
+      "food",
+      "entertainment"
+    ],
+    "moods": [
+      "cheerful",
+      "cozy"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "red",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 17
+  },
+  {
+    "assetId": "doodle-135",
+    "file": "doodle-135.svg",
+    "src": "/materials/svg/doodle-135.svg",
+    "name": {
+      "zh": "蓝色方形角色",
+      "en": "Blue square character"
+    },
+    "description": "粗黑描边的蓝色方形角色扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "blue-character"
+    ],
+    "keywords": [
+      "蓝色角色",
+      "方形",
+      "微笑",
+      "蓝色方形角色",
+      "blue square character"
+    ],
+    "themes": [
+      "cute",
+      "abstract"
+    ],
+    "moods": [
+      "cute",
+      "calm"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "light-blue",
+      "pink",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 14
+  },
+  {
+    "assetId": "doodle-136",
+    "file": "doodle-136.svg",
+    "src": "/materials/svg/doodle-136.svg",
+    "name": {
+      "zh": "仙人掌盆栽",
+      "en": "Cactus cluster"
+    },
+    "description": "粗黑描边的仙人掌盆栽扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "nature",
+    "subjects": [
+      "cactus"
+    ],
+    "keywords": [
+      "仙人掌",
+      "植物",
+      "沙漠",
+      "仙人掌盆栽",
+      "cactus cluster"
+    ],
+    "themes": [
+      "nature",
+      "desert"
+    ],
+    "moods": [
+      "fresh",
+      "playful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "black",
+      "yellow",
+      "green"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 108
+  },
+  {
+    "assetId": "doodle-137",
+    "file": "doodle-137.svg",
+    "src": "/materials/svg/doodle-137.svg",
+    "name": {
+      "zh": "黄色流星",
+      "en": "Yellow shooting star"
+    },
+    "description": "粗黑描边的黄色流星扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "space",
+    "subjects": [
+      "shooting-star"
+    ],
+    "keywords": [
+      "流星",
+      "星星",
+      "彗星",
+      "黄色流星",
+      "yellow shooting star"
+    ],
+    "themes": [
+      "space",
+      "adventure"
+    ],
+    "moods": [
+      "energetic",
+      "hopeful"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "yellow",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 13
+  },
+  {
+    "assetId": "doodle-138",
+    "file": "doodle-138.svg",
+    "src": "/materials/svg/doodle-138.svg",
+    "name": {
+      "zh": "爱心点赞气泡",
+      "en": "Heart notification bubble"
+    },
+    "description": "粗黑描边的爱心点赞气泡扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "callout",
+    "subjects": [
+      "notification"
+    ],
+    "keywords": [
+      "爱心",
+      "点赞",
+      "通知",
+      "数字1",
+      "爱心点赞气泡",
+      "heart notification bubble"
+    ],
+    "themes": [
+      "social",
+      "romance"
+    ],
+    "moods": [
+      "cheerful",
+      "romantic"
+    ],
+    "roles": [
+      "callout",
+      "icon"
+    ],
+    "colors": [
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top",
+      "center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": true,
+    "pathCount": 5
+  },
+  {
+    "assetId": "doodle-139",
+    "file": "doodle-139.svg",
+    "src": "/materials/svg/doodle-139.svg",
+    "name": {
+      "zh": "蓝色向下箭头",
+      "en": "Blue down arrow"
+    },
+    "description": "粗黑描边的蓝色向下箭头扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "symbol",
+    "subjects": [
+      "arrow"
+    ],
+    "keywords": [
+      "箭头",
+      "向下",
+      "蓝色",
+      "蓝色向下箭头",
+      "blue down arrow"
+    ],
+    "themes": [
+      "navigation",
+      "technology"
+    ],
+    "moods": [
+      "energetic",
+      "playful"
+    ],
+    "roles": [
+      "icon",
+      "decoration"
+    ],
+    "colors": [
+      "blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 4
+  },
+  {
+    "assetId": "doodle-014",
+    "file": "doodle-14.svg",
+    "src": "/materials/svg/doodle-14.svg",
+    "name": {
+      "zh": "红色蝴蝶结",
+      "en": "Red bow"
+    },
+    "description": "粗黑描边的红色蝴蝶结扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "fashion",
+    "subjects": [
+      "bow"
+    ],
+    "keywords": [
+      "蝴蝶结",
+      "礼物",
+      "装饰",
+      "红色蝴蝶结",
+      "red bow"
+    ],
+    "themes": [
+      "fashion",
+      "romance"
+    ],
+    "moods": [
+      "cute",
+      "romantic"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "pink",
+      "red",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 24
+  },
+  {
+    "assetId": "doodle-140",
+    "file": "doodle-140.svg",
+    "src": "/materials/svg/doodle-140.svg",
+    "name": {
+      "zh": "蓝色宝石",
+      "en": "Blue gemstone"
+    },
+    "description": "粗黑描边的蓝色宝石扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "symbol",
+    "subjects": [
+      "gemstone"
+    ],
+    "keywords": [
+      "宝石",
+      "水晶",
+      "蓝色",
+      "蓝色宝石",
+      "blue gemstone"
+    ],
+    "themes": [
+      "luxury",
+      "fantasy"
+    ],
+    "moods": [
+      "mysterious",
+      "elegant"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "blue",
+      "indigo",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 7
+  },
+  {
+    "assetId": "doodle-141",
+    "file": "doodle-141.svg",
+    "src": "/materials/svg/doodle-141.svg",
+    "name": {
+      "zh": "牛角面包",
+      "en": "Croissant"
+    },
+    "description": "粗黑描边的牛角面包扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "croissant"
+    ],
+    "keywords": [
+      "牛角包",
+      "面包",
+      "早餐",
+      "牛角面包",
+      "croissant"
+    ],
+    "themes": [
+      "food",
+      "cozy"
+    ],
+    "moods": [
+      "cozy",
+      "cheerful"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 6
+  },
+  {
+    "assetId": "doodle-142",
+    "file": "doodle-142.svg",
+    "src": "/materials/svg/doodle-142.svg",
+    "name": {
+      "zh": "和平标志",
+      "en": "Peace sign"
+    },
+    "description": "粗黑描边的和平标志扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "symbol",
+    "subjects": [
+      "peace-sign"
+    ],
+    "keywords": [
+      "和平",
+      "标志",
+      "圆形",
+      "和平标志",
+      "peace sign"
+    ],
+    "themes": [
+      "social",
+      "retro"
+    ],
+    "moods": [
+      "calm",
+      "hopeful"
+    ],
+    "roles": [
+      "sticker",
+      "icon"
+    ],
+    "colors": [
+      "indigo",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 5
+  },
+  {
+    "assetId": "doodle-143",
+    "file": "doodle-143.svg",
+    "src": "/materials/svg/doodle-143.svg",
+    "name": {
+      "zh": "粉色爱心",
+      "en": "Pink heart"
+    },
+    "description": "粗黑描边的粉色爱心扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "symbol",
+    "subjects": [
+      "heart"
+    ],
+    "keywords": [
+      "爱心",
+      "粉色",
+      "爱情",
+      "粉色爱心",
+      "pink heart"
+    ],
+    "themes": [
+      "romance",
+      "cute"
+    ],
+    "moods": [
+      "romantic",
+      "cute"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "red",
+      "pink",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 4
+  },
+  {
+    "assetId": "doodle-144",
+    "file": "doodle-144.svg",
+    "src": "/materials/svg/doodle-144.svg",
+    "name": {
+      "zh": "张嘴表情",
+      "en": "Open mouth"
+    },
+    "description": "粗黑描边的张嘴表情扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "face-part",
+    "subjects": [
+      "mouth"
+    ],
+    "keywords": [
+      "嘴巴",
+      "牙齿",
+      "表情",
+      "张嘴表情",
+      "open mouth"
+    ],
+    "themes": [
+      "funny",
+      "monster"
+    ],
+    "moods": [
+      "funny",
+      "energetic"
+    ],
+    "roles": [
+      "facePart",
+      "sticker"
+    ],
+    "colors": [
+      "red",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 11
+  },
+  {
+    "assetId": "doodle-146",
+    "file": "doodle-146.svg",
+    "src": "/materials/svg/doodle-146.svg",
+    "name": {
+      "zh": "吐舌嘴巴",
+      "en": "Tongue mouth"
+    },
+    "description": "粗黑描边的吐舌嘴巴扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "face-part",
+    "subjects": [
+      "mouth"
+    ],
+    "keywords": [
+      "嘴巴",
+      "舌头",
+      "牙齿",
+      "吐舌嘴巴",
+      "tongue mouth"
+    ],
+    "themes": [
+      "funny",
+      "monster"
+    ],
+    "moods": [
+      "funny",
+      "playful"
+    ],
+    "roles": [
+      "facePart",
+      "sticker"
+    ],
+    "colors": [
+      "red",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 7
+  },
+  {
+    "assetId": "doodle-147",
+    "file": "doodle-147.svg",
+    "src": "/materials/svg/doodle-147.svg",
+    "name": {
+      "zh": "牙齿笑线",
+      "en": "Teeth smile line"
+    },
+    "description": "粗黑描边的牙齿笑线扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "face-part",
+    "subjects": [
+      "teeth"
+    ],
+    "keywords": [
+      "牙齿",
+      "微笑",
+      "表情",
+      "牙齿笑线",
+      "teeth smile line"
+    ],
+    "themes": [
+      "funny",
+      "cute"
+    ],
+    "moods": [
+      "funny",
+      "cheerful"
+    ],
+    "roles": [
+      "facePart",
+      "decoration"
+    ],
+    "colors": [
+      "black"
+    ],
+    "recommendedPositions": [
+      "center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 5
+  },
+  {
+    "assetId": "doodle-148",
+    "file": "doodle-148.svg",
+    "src": "/materials/svg/doodle-148.svg",
+    "name": {
+      "zh": "伸舌表情部件",
+      "en": "Tongue face part"
+    },
+    "description": "粗黑描边的伸舌表情部件扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "face-part",
+    "subjects": [
+      "tongue"
+    ],
+    "keywords": [
+      "舌头",
+      "嘴巴",
+      "表情",
+      "伸舌表情部件",
+      "tongue face part"
+    ],
+    "themes": [
+      "funny",
+      "monster"
+    ],
+    "moods": [
+      "funny",
+      "playful"
+    ],
+    "roles": [
+      "facePart",
+      "decoration"
+    ],
+    "colors": [
+      "black"
+    ],
+    "recommendedPositions": [
+      "center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 3
+  },
+  {
+    "assetId": "doodle-015",
+    "file": "doodle-15.svg",
+    "src": "/materials/svg/doodle-15.svg",
+    "name": {
+      "zh": "蓝色小鸟",
+      "en": "Blue bird"
+    },
+    "description": "粗黑描边的蓝色小鸟扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "bird"
+    ],
+    "keywords": [
+      "小鸟",
+      "蓝鸟",
+      "鸟",
+      "蓝色小鸟",
+      "blue bird"
+    ],
+    "themes": [
+      "cute",
+      "nature"
+    ],
+    "moods": [
+      "cute",
+      "calm"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "indigo",
+      "blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 14
+  },
+  {
+    "assetId": "doodle-150",
+    "file": "doodle-150.svg",
+    "src": "/materials/svg/doodle-150.svg",
+    "name": {
+      "zh": "圆角对话框",
+      "en": "Rounded speech bubble"
+    },
+    "description": "粗黑描边的圆角对话框扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "callout",
+    "subjects": [
+      "speech-bubble"
+    ],
+    "keywords": [
+      "对话框",
+      "气泡",
+      "空白",
+      "圆角对话框",
+      "rounded speech bubble"
+    ],
+    "themes": [
+      "communication",
+      "social"
+    ],
+    "moods": [
+      "calm",
+      "playful"
+    ],
+    "roles": [
+      "callout"
+    ],
+    "colors": [
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top",
+      "center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 2
+  },
+  {
+    "assetId": "doodle-152",
+    "file": "doodle-152.svg",
+    "src": "/materials/svg/doodle-152.svg",
+    "name": {
+      "zh": "云形对话框",
+      "en": "Cloud speech bubble"
+    },
+    "description": "粗黑描边的云形对话框扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "callout",
+    "subjects": [
+      "speech-bubble"
+    ],
+    "keywords": [
+      "云朵",
+      "对话框",
+      "空白",
+      "云形对话框",
+      "cloud speech bubble"
+    ],
+    "themes": [
+      "communication",
+      "cute"
+    ],
+    "moods": [
+      "calm",
+      "cute"
+    ],
+    "roles": [
+      "callout"
+    ],
+    "colors": [
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top",
+      "center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 2
+  },
+  {
+    "assetId": "doodle-153",
+    "file": "doodle-153.svg",
+    "src": "/materials/svg/doodle-153.svg",
+    "name": {
+      "zh": "花边气泡",
+      "en": "Scalloped bubble"
+    },
+    "description": "粗黑描边的花边气泡扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "callout",
+    "subjects": [
+      "speech-bubble"
+    ],
+    "keywords": [
+      "气泡",
+      "花边",
+      "空白",
+      "花边气泡",
+      "scalloped bubble"
+    ],
+    "themes": [
+      "communication",
+      "cute"
+    ],
+    "moods": [
+      "cute",
+      "playful"
+    ],
+    "roles": [
+      "callout"
+    ],
+    "colors": [
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top",
+      "center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 2
+  },
+  {
+    "assetId": "doodle-154",
+    "file": "doodle-154.svg",
+    "src": "/materials/svg/doodle-154.svg",
+    "name": {
+      "zh": "方形对话框",
+      "en": "Square speech bubble"
+    },
+    "description": "粗黑描边的方形对话框扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "callout",
+    "subjects": [
+      "speech-bubble"
+    ],
+    "keywords": [
+      "对话框",
+      "方形",
+      "空白",
+      "方形对话框",
+      "square speech bubble"
+    ],
+    "themes": [
+      "communication",
+      "social"
+    ],
+    "moods": [
+      "calm",
+      "playful"
+    ],
+    "roles": [
+      "callout"
+    ],
+    "colors": [
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top",
+      "center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 2
+  },
+  {
+    "assetId": "doodle-155",
+    "file": "doodle-155.svg",
+    "src": "/materials/svg/doodle-155.svg",
+    "name": {
+      "zh": "思考气泡",
+      "en": "Thought bubble"
+    },
+    "description": "粗黑描边的思考气泡扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "callout",
+    "subjects": [
+      "thought-bubble"
+    ],
+    "keywords": [
+      "思考",
+      "气泡",
+      "空白",
+      "思考气泡",
+      "thought bubble"
+    ],
+    "themes": [
+      "communication",
+      "cute"
+    ],
+    "moods": [
+      "calm",
+      "playful"
+    ],
+    "roles": [
+      "callout"
+    ],
+    "colors": [
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top",
+      "center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 4
+  },
+  {
+    "assetId": "doodle-156",
+    "file": "doodle-156.svg",
+    "src": "/materials/svg/doodle-156.svg",
+    "name": {
+      "zh": "爆炸气泡",
+      "en": "Burst bubble"
+    },
+    "description": "粗黑描边的爆炸气泡扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "callout",
+    "subjects": [
+      "burst-bubble"
+    ],
+    "keywords": [
+      "爆炸框",
+      "强调",
+      "空白",
+      "爆炸气泡",
+      "burst bubble"
+    ],
+    "themes": [
+      "communication",
+      "comic"
+    ],
+    "moods": [
+      "energetic",
+      "playful"
+    ],
+    "roles": [
+      "callout"
+    ],
+    "colors": [
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top",
+      "center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 2
+  },
+  {
+    "assetId": "doodle-157",
+    "file": "doodle-157.svg",
+    "src": "/materials/svg/doodle-157.svg",
+    "name": {
+      "zh": "竖向对话框",
+      "en": "Vertical speech bubble"
+    },
+    "description": "粗黑描边的竖向对话框扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "callout",
+    "subjects": [
+      "speech-bubble"
+    ],
+    "keywords": [
+      "对话框",
+      "竖向",
+      "空白",
+      "竖向对话框",
+      "vertical speech bubble"
+    ],
+    "themes": [
+      "communication",
+      "social"
+    ],
+    "moods": [
+      "calm",
+      "playful"
+    ],
+    "roles": [
+      "callout"
+    ],
+    "colors": [
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top",
+      "center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 2
+  },
+  {
+    "assetId": "doodle-159",
+    "file": "doodle-159.svg",
+    "src": "/materials/svg/doodle-159.svg",
+    "name": {
+      "zh": "椭圆对话框",
+      "en": "Oval speech bubble"
+    },
+    "description": "粗黑描边的椭圆对话框扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "callout",
+    "subjects": [
+      "speech-bubble"
+    ],
+    "keywords": [
+      "对话框",
+      "椭圆",
+      "空白",
+      "椭圆对话框",
+      "oval speech bubble"
+    ],
+    "themes": [
+      "communication",
+      "social"
+    ],
+    "moods": [
+      "calm",
+      "playful"
+    ],
+    "roles": [
+      "callout"
+    ],
+    "colors": [
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top",
+      "center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 2
+  },
+  {
+    "assetId": "doodle-016",
+    "file": "doodle-16.svg",
+    "src": "/materials/svg/doodle-16.svg",
+    "name": {
+      "zh": "熊猫幽灵",
+      "en": "Panda ghost"
+    },
+    "description": "粗黑描边的熊猫幽灵扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "fantasy",
+    "subjects": [
+      "panda-ghost"
+    ],
+    "keywords": [
+      "熊猫",
+      "幽灵",
+      "万圣节",
+      "熊猫幽灵",
+      "panda ghost"
+    ],
+    "themes": [
+      "fantasy",
+      "holiday"
+    ],
+    "moods": [
+      "funny",
+      "mysterious"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 17
+  },
+  {
+    "assetId": "doodle-160",
+    "file": "doodle-160.svg",
+    "src": "/materials/svg/doodle-160.svg",
+    "name": {
+      "zh": "漫画爆炸框",
+      "en": "Comic burst bubble"
+    },
+    "description": "粗黑描边的漫画爆炸框扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "callout",
+    "subjects": [
+      "burst-bubble"
+    ],
+    "keywords": [
+      "漫画",
+      "爆炸框",
+      "强调",
+      "漫画爆炸框",
+      "comic burst bubble"
+    ],
+    "themes": [
+      "communication",
+      "comic"
+    ],
+    "moods": [
+      "energetic",
+      "playful"
+    ],
+    "roles": [
+      "callout"
+    ],
+    "colors": [
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top",
+      "center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 2
+  },
+  {
+    "assetId": "doodle-017",
+    "file": "doodle-17.svg",
+    "src": "/materials/svg/doodle-17.svg",
+    "name": {
+      "zh": "绿色恐龙",
+      "en": "Green dinosaur"
+    },
+    "description": "粗黑描边的绿色恐龙扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "dinosaur"
+    ],
+    "keywords": [
+      "恐龙",
+      "绿色",
+      "史前动物",
+      "绿色恐龙",
+      "green dinosaur"
+    ],
+    "themes": [
+      "dinosaur",
+      "cute"
+    ],
+    "moods": [
+      "energetic",
+      "funny"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "light-blue",
+      "blue",
+      "yellow",
+      "green",
+      "red",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 68
+  },
+  {
+    "assetId": "doodle-018",
+    "file": "doodle-18.svg",
+    "src": "/materials/svg/doodle-18.svg",
+    "name": {
+      "zh": "红色蘑菇",
+      "en": "Red mushroom"
+    },
+    "description": "粗黑描边的红色蘑菇扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "nature",
+    "subjects": [
+      "mushroom"
+    ],
+    "keywords": [
+      "蘑菇",
+      "植物",
+      "森林",
+      "红色蘑菇",
+      "red mushroom"
+    ],
+    "themes": [
+      "nature",
+      "fantasy"
+    ],
+    "moods": [
+      "cute",
+      "mysterious"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "red",
+      "tan",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 19
+  },
+  {
+    "assetId": "doodle-019",
+    "file": "doodle-19.svg",
+    "src": "/materials/svg/doodle-19.svg",
+    "name": {
+      "zh": "咆哮棕熊",
+      "en": "Roaring bear"
+    },
+    "description": "粗黑描边的咆哮棕熊扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "bear"
+    ],
+    "keywords": [
+      "熊",
+      "棕熊",
+      "咆哮",
+      "咆哮棕熊",
+      "roaring bear"
+    ],
+    "themes": [
+      "animal",
+      "adventure"
+    ],
+    "moods": [
+      "energetic",
+      "funny"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "brown",
+      "red",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 28
+  },
+  {
+    "assetId": "doodle-020",
+    "file": "doodle-20.svg",
+    "src": "/materials/svg/doodle-20.svg",
+    "name": {
+      "zh": "蓝色史莱姆",
+      "en": "Blue slime"
+    },
+    "description": "粗黑描边的蓝色史莱姆扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "slime"
+    ],
+    "keywords": [
+      "史莱姆",
+      "水滴",
+      "蓝色",
+      "蓝色史莱姆",
+      "blue slime"
+    ],
+    "themes": [
+      "monster",
+      "fantasy"
+    ],
+    "moods": [
+      "calm",
+      "cute"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 7
+  },
+  {
+    "assetId": "doodle-021",
+    "file": "doodle-21.svg",
+    "src": "/materials/svg/doodle-21.svg",
+    "name": {
+      "zh": "微笑太阳",
+      "en": "Smiling sun"
+    },
+    "description": "粗黑描边的微笑太阳扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "nature",
+    "subjects": [
+      "sun"
+    ],
+    "keywords": [
+      "太阳",
+      "阳光",
+      "天气",
+      "微笑太阳",
+      "smiling sun"
+    ],
+    "themes": [
+      "weather",
+      "nature"
+    ],
+    "moods": [
+      "cheerful",
+      "energetic"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "yellow",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 39
+  },
+  {
+    "assetId": "doodle-022",
+    "file": "doodle-22.svg",
+    "src": "/materials/svg/doodle-22.svg",
+    "name": {
+      "zh": "棕色小狗",
+      "en": "Brown dog"
+    },
+    "description": "粗黑描边的棕色小狗扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "dog"
+    ],
+    "keywords": [
+      "狗",
+      "小狗",
+      "宠物",
+      "棕色小狗",
+      "brown dog"
+    ],
+    "themes": [
+      "pet",
+      "cute"
+    ],
+    "moods": [
+      "cute",
+      "playful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "red",
+      "brown",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 15
+  },
+  {
+    "assetId": "doodle-023",
+    "file": "doodle-23.svg",
+    "src": "/materials/svg/doodle-23.svg",
+    "name": {
+      "zh": "牛角毛怪",
+      "en": "Horned furry monster"
+    },
+    "description": "粗黑描边的牛角毛怪扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "horned-monster"
+    ],
+    "keywords": [
+      "怪兽",
+      "牛角",
+      "棕色",
+      "牛角毛怪",
+      "horned furry monster"
+    ],
+    "themes": [
+      "monster",
+      "fantasy"
+    ],
+    "moods": [
+      "mysterious",
+      "funny"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "orange",
+      "brown",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 33
+  },
+  {
+    "assetId": "doodle-024",
+    "file": "doodle-24.svg",
+    "src": "/materials/svg/doodle-24.svg",
+    "name": {
+      "zh": "脑花纸杯蛋糕",
+      "en": "Brain cupcake"
+    },
+    "description": "粗黑描边的脑花纸杯蛋糕扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "cupcake"
+    ],
+    "keywords": [
+      "纸杯蛋糕",
+      "甜品",
+      "脑花",
+      "脑花纸杯蛋糕",
+      "brain cupcake"
+    ],
+    "themes": [
+      "food",
+      "funny"
+    ],
+    "moods": [
+      "funny",
+      "cute"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "brown",
+      "pink",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 25
+  },
+  {
+    "assetId": "doodle-025",
+    "file": "doodle-25.svg",
+    "src": "/materials/svg/doodle-25.svg",
+    "name": {
+      "zh": "橘色狐狸",
+      "en": "Orange fox"
+    },
+    "description": "粗黑描边的橘色狐狸扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "fox"
+    ],
+    "keywords": [
+      "狐狸",
+      "橘色",
+      "森林动物",
+      "橘色狐狸",
+      "orange fox"
+    ],
+    "themes": [
+      "nature",
+      "cute"
+    ],
+    "moods": [
+      "cute",
+      "calm"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 30
+  },
+  {
+    "assetId": "doodle-026",
+    "file": "doodle-26.svg",
+    "src": "/materials/svg/doodle-26.svg",
+    "name": {
+      "zh": "黄色礼物盒",
+      "en": "Yellow gift box"
+    },
+    "description": "粗黑描边的黄色礼物盒扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "object",
+    "subjects": [
+      "gift-box"
+    ],
+    "keywords": [
+      "礼物",
+      "礼盒",
+      "蝴蝶结",
+      "黄色礼物盒",
+      "yellow gift box"
+    ],
+    "themes": [
+      "holiday",
+      "celebration"
+    ],
+    "moods": [
+      "cute",
+      "cheerful"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "yellow",
+      "blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 10
+  },
+  {
+    "assetId": "doodle-027",
+    "file": "doodle-27.svg",
+    "src": "/materials/svg/doodle-27.svg",
+    "name": {
+      "zh": "手持镜子",
+      "en": "Hand mirror"
+    },
+    "description": "粗黑描边的手持镜子扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "object",
+    "subjects": [
+      "mirror"
+    ],
+    "keywords": [
+      "镜子",
+      "梳妆",
+      "蝴蝶结",
+      "手持镜子",
+      "hand mirror"
+    ],
+    "themes": [
+      "fashion",
+      "daily"
+    ],
+    "moods": [
+      "cute",
+      "calm"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "brown",
+      "red",
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 18
+  },
+  {
+    "assetId": "doodle-028",
+    "file": "doodle-28.svg",
+    "src": "/materials/svg/doodle-28.svg",
+    "name": {
+      "zh": "白色雪怪",
+      "en": "White yeti"
+    },
+    "description": "粗黑描边的白色雪怪扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "yeti"
+    ],
+    "keywords": [
+      "雪怪",
+      "白色",
+      "冬天",
+      "白色雪怪",
+      "white yeti"
+    ],
+    "themes": [
+      "winter",
+      "fantasy"
+    ],
+    "moods": [
+      "cute",
+      "funny"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 20
+  },
+  {
+    "assetId": "doodle-029",
+    "file": "doodle-29.svg",
+    "src": "/materials/svg/doodle-29.svg",
+    "name": {
+      "zh": "绿色墨西哥卷",
+      "en": "Green taco"
+    },
+    "description": "粗黑描边的绿色墨西哥卷扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "taco"
+    ],
+    "keywords": [
+      "卷饼",
+      "墨西哥卷",
+      "食物",
+      "绿色墨西哥卷",
+      "green taco"
+    ],
+    "themes": [
+      "food"
+    ],
+    "moods": [
+      "cheerful",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "yellow",
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 40
+  },
+  {
+    "assetId": "doodle-030",
+    "file": "doodle-30.svg",
+    "src": "/materials/svg/doodle-30.svg",
+    "name": {
+      "zh": "电子琴",
+      "en": "Keyboard synthesizer"
+    },
+    "description": "粗黑描边的电子琴扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "music",
+    "subjects": [
+      "keyboard"
+    ],
+    "keywords": [
+      "电子琴",
+      "键盘",
+      "乐器",
+      "keyboard synthesizer"
+    ],
+    "themes": [
+      "music",
+      "retro"
+    ],
+    "moods": [
+      "energetic",
+      "creative"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "yellow",
+      "gray",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 52
+  },
+  {
+    "assetId": "doodle-031",
+    "file": "doodle-31.svg",
+    "src": "/materials/svg/doodle-31.svg",
+    "name": {
+      "zh": "绿色青蛙",
+      "en": "Green frog"
+    },
+    "description": "粗黑描边的绿色青蛙扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "frog"
+    ],
+    "keywords": [
+      "青蛙",
+      "绿色",
+      "两栖动物",
+      "绿色青蛙",
+      "green frog"
+    ],
+    "themes": [
+      "nature",
+      "cute"
+    ],
+    "moods": [
+      "playful",
+      "funny"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 25
+  },
+  {
+    "assetId": "doodle-032",
+    "file": "doodle-32.svg",
+    "src": "/materials/svg/doodle-32.svg",
+    "name": {
+      "zh": "咧嘴棕熊",
+      "en": "Grinning bear"
+    },
+    "description": "粗黑描边的咧嘴棕熊扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "bear"
+    ],
+    "keywords": [
+      "熊",
+      "笑脸",
+      "棕熊",
+      "咧嘴棕熊",
+      "grinning bear"
+    ],
+    "themes": [
+      "animal",
+      "cute"
+    ],
+    "moods": [
+      "funny",
+      "cheerful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "brown",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 13
+  },
+  {
+    "assetId": "doodle-033",
+    "file": "doodle-33.svg",
+    "src": "/materials/svg/doodle-33.svg",
+    "name": {
+      "zh": "蓝色鹿角怪",
+      "en": "Blue antler monster"
+    },
+    "description": "粗黑描边的蓝色鹿角怪扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "antler-monster"
+    ],
+    "keywords": [
+      "怪兽",
+      "鹿角",
+      "蓝色",
+      "蓝色鹿角怪",
+      "blue antler monster"
+    ],
+    "themes": [
+      "monster",
+      "winter"
+    ],
+    "moods": [
+      "cute",
+      "funny"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "brown",
+      "blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 25
+  },
+  {
+    "assetId": "doodle-034",
+    "file": "doodle-34.svg",
+    "src": "/materials/svg/doodle-34.svg",
+    "name": {
+      "zh": "卡通火箭",
+      "en": "Cartoon rocket"
+    },
+    "description": "粗黑描边的卡通火箭扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "space",
+    "subjects": [
+      "rocket"
+    ],
+    "keywords": [
+      "火箭",
+      "太空",
+      "宇宙",
+      "发射",
+      "卡通火箭",
+      "cartoon rocket"
+    ],
+    "themes": [
+      "space",
+      "technology",
+      "adventure"
+    ],
+    "moods": [
+      "energetic",
+      "playful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "yellow",
+      "gray",
+      "red",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 21
+  },
+  {
+    "assetId": "doodle-035",
+    "file": "doodle-35.svg",
+    "src": "/materials/svg/doodle-35.svg",
+    "name": {
+      "zh": "雪人",
+      "en": "Snowman"
+    },
+    "description": "粗黑描边的雪人扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "snowman"
+    ],
+    "keywords": [
+      "雪人",
+      "冬天",
+      "圣诞",
+      "snowman"
+    ],
+    "themes": [
+      "winter",
+      "holiday"
+    ],
+    "moods": [
+      "cheerful",
+      "cozy"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "brown",
+      "green",
+      "red",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 31
+  },
+  {
+    "assetId": "doodle-036",
+    "file": "doodle-36.svg",
+    "src": "/materials/svg/doodle-36.svg",
+    "name": {
+      "zh": "独角鲸",
+      "en": "Narwhal"
+    },
+    "description": "粗黑描边的独角鲸扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "narwhal"
+    ],
+    "keywords": [
+      "独角鲸",
+      "鲸鱼",
+      "海洋",
+      "narwhal"
+    ],
+    "themes": [
+      "ocean",
+      "fantasy"
+    ],
+    "moods": [
+      "cute",
+      "calm"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "blue",
+      "orange",
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 25
+  },
+  {
+    "assetId": "doodle-037",
+    "file": "doodle-37.svg",
+    "src": "/materials/svg/doodle-37.svg",
+    "name": {
+      "zh": "雷雨云",
+      "en": "Thunder cloud"
+    },
+    "description": "粗黑描边的雷雨云扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "nature",
+    "subjects": [
+      "thunder-cloud"
+    ],
+    "keywords": [
+      "乌云",
+      "闪电",
+      "雷雨",
+      "雷雨云",
+      "thunder cloud"
+    ],
+    "themes": [
+      "weather",
+      "nature"
+    ],
+    "moods": [
+      "energetic",
+      "mysterious"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "light-blue",
+      "yellow",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 26
+  },
+  {
+    "assetId": "doodle-038",
+    "file": "doodle-38.svg",
+    "src": "/materials/svg/doodle-38.svg",
+    "name": {
+      "zh": "橙色章鱼",
+      "en": "Orange octopus"
+    },
+    "description": "粗黑描边的橙色章鱼扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "octopus"
+    ],
+    "keywords": [
+      "章鱼",
+      "海洋",
+      "橙色",
+      "橙色章鱼",
+      "orange octopus"
+    ],
+    "themes": [
+      "ocean",
+      "cute"
+    ],
+    "moods": [
+      "cute",
+      "calm"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 9
+  },
+  {
+    "assetId": "doodle-039",
+    "file": "doodle-39.svg",
+    "src": "/materials/svg/doodle-39.svg",
+    "name": {
+      "zh": "橙发美人鱼",
+      "en": "Orange-haired mermaid"
+    },
+    "description": "粗黑描边的橙发美人鱼扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "mermaid"
+    ],
+    "keywords": [
+      "美人鱼",
+      "女孩",
+      "海洋",
+      "橙发美人鱼",
+      "orange-haired mermaid"
+    ],
+    "themes": [
+      "ocean",
+      "fantasy"
+    ],
+    "moods": [
+      "cute",
+      "playful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "indigo",
+      "green",
+      "blue",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 51
+  },
+  {
+    "assetId": "doodle-041",
+    "file": "doodle-41.svg",
+    "src": "/materials/svg/doodle-41.svg",
+    "name": {
+      "zh": "耳机女孩",
+      "en": "Headphone girl"
+    },
+    "description": "粗黑描边的耳机女孩扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "girl"
+    ],
+    "keywords": [
+      "女孩",
+      "耳机",
+      "音乐",
+      "耳机女孩",
+      "headphone girl"
+    ],
+    "themes": [
+      "music",
+      "people"
+    ],
+    "moods": [
+      "calm",
+      "cute"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "purple",
+      "yellow",
+      "red",
+      "tan",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 20
+  },
+  {
+    "assetId": "doodle-042",
+    "file": "doodle-42.svg",
+    "src": "/materials/svg/doodle-42.svg",
+    "name": {
+      "zh": "黄色椭圆角色",
+      "en": "Yellow oval character"
+    },
+    "description": "粗黑描边的黄色椭圆角色扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "oval-character"
+    ],
+    "keywords": [
+      "黄色角色",
+      "笑脸",
+      "牙齿",
+      "黄色椭圆角色",
+      "yellow oval character"
+    ],
+    "themes": [
+      "cute",
+      "funny"
+    ],
+    "moods": [
+      "cheerful",
+      "funny"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "yellow",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 11
+  },
+  {
+    "assetId": "doodle-043",
+    "file": "doodle-43.svg",
+    "src": "/materials/svg/doodle-43.svg",
+    "name": {
+      "zh": "坐姿狐狸",
+      "en": "Sitting fox"
+    },
+    "description": "粗黑描边的坐姿狐狸扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "fox"
+    ],
+    "keywords": [
+      "狐狸",
+      "坐姿",
+      "橘色",
+      "坐姿狐狸",
+      "sitting fox"
+    ],
+    "themes": [
+      "nature",
+      "cute"
+    ],
+    "moods": [
+      "calm",
+      "cute"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "black",
+      "orange"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 31
+  },
+  {
+    "assetId": "doodle-044",
+    "file": "doodle-44.svg",
+    "src": "/materials/svg/doodle-44.svg",
+    "name": {
+      "zh": "橙色宇航员",
+      "en": "Orange astronaut"
+    },
+    "description": "粗黑描边的橙色宇航员扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "space",
+    "subjects": [
+      "astronaut"
+    ],
+    "keywords": [
+      "宇航员",
+      "太空服",
+      "宇宙",
+      "橙色宇航员",
+      "orange astronaut"
+    ],
+    "themes": [
+      "space",
+      "technology",
+      "adventure"
+    ],
+    "moods": [
+      "cute",
+      "calm"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "red",
+      "orange",
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 30
+  },
+  {
+    "assetId": "doodle-045",
+    "file": "doodle-45.svg",
+    "src": "/materials/svg/doodle-45.svg",
+    "name": {
+      "zh": "蓝色书本",
+      "en": "Blue book"
+    },
+    "description": "粗黑描边的蓝色书本扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "stationery",
+    "subjects": [
+      "book"
+    ],
+    "keywords": [
+      "书",
+      "阅读",
+      "书签",
+      "蓝色书本",
+      "blue book"
+    ],
+    "themes": [
+      "school",
+      "knowledge"
+    ],
+    "moods": [
+      "calm",
+      "creative"
+    ],
+    "roles": [
+      "sticker",
+      "icon"
+    ],
+    "colors": [
+      "tan",
+      "red",
+      "blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 16
+  },
+  {
+    "assetId": "doodle-046",
+    "file": "doodle-46.svg",
+    "src": "/materials/svg/doodle-46.svg",
+    "name": {
+      "zh": "爱心咖啡杯",
+      "en": "Heart coffee cup"
+    },
+    "description": "粗黑描边的爱心咖啡杯扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "coffee"
+    ],
+    "keywords": [
+      "咖啡",
+      "纸杯",
+      "爱心",
+      "爱心咖啡杯",
+      "heart coffee cup"
+    ],
+    "themes": [
+      "food",
+      "cozy",
+      "romance"
+    ],
+    "moods": [
+      "cozy",
+      "romantic"
+    ],
+    "roles": [
+      "sticker",
+      "icon"
+    ],
+    "colors": [
+      "brown",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 16
+  },
+  {
+    "assetId": "doodle-047",
+    "file": "doodle-47.svg",
+    "src": "/materials/svg/doodle-47.svg",
+    "name": {
+      "zh": "鱼骨",
+      "en": "Fish skeleton"
+    },
+    "description": "粗黑描边的鱼骨扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "symbol",
+    "subjects": [
+      "fish-bone"
+    ],
+    "keywords": [
+      "鱼骨",
+      "骨头",
+      "海洋",
+      "fish skeleton"
+    ],
+    "themes": [
+      "ocean",
+      "funny"
+    ],
+    "moods": [
+      "funny",
+      "mysterious"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "gray",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 17
+  },
+  {
+    "assetId": "doodle-048",
+    "file": "doodle-48.svg",
+    "src": "/materials/svg/doodle-48.svg",
+    "name": {
+      "zh": "黑胶唱片",
+      "en": "Vinyl record"
+    },
+    "description": "粗黑描边的黑胶唱片扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "music",
+    "subjects": [
+      "vinyl-record"
+    ],
+    "keywords": [
+      "唱片",
+      "黑胶",
+      "音乐",
+      "黑胶唱片",
+      "vinyl record"
+    ],
+    "themes": [
+      "music",
+      "retro"
+    ],
+    "moods": [
+      "energetic",
+      "nostalgic"
+    ],
+    "roles": [
+      "sticker",
+      "icon"
+    ],
+    "colors": [
+      "yellow",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 17
+  },
+  {
+    "assetId": "doodle-049",
+    "file": "doodle-49.svg",
+    "src": "/materials/svg/doodle-49.svg",
+    "name": {
+      "zh": "绿色长腿角色",
+      "en": "Green long-legged character"
+    },
+    "description": "粗黑描边的绿色长腿角色扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "green-character"
+    ],
+    "keywords": [
+      "绿色角色",
+      "长腿",
+      "闭眼",
+      "绿色长腿角色",
+      "green long-legged character"
+    ],
+    "themes": [
+      "cute",
+      "calm"
+    ],
+    "moods": [
+      "calm",
+      "cute"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 13
+  },
+  {
+    "assetId": "doodle-050",
+    "file": "doodle-50.svg",
+    "src": "/materials/svg/doodle-50.svg",
+    "name": {
+      "zh": "牛奶瓶",
+      "en": "Milk bottle"
+    },
+    "description": "粗黑描边的牛奶瓶扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "milk"
+    ],
+    "keywords": [
+      "牛奶",
+      "瓶子",
+      "饮料",
+      "牛奶瓶",
+      "milk bottle"
+    ],
+    "themes": [
+      "food",
+      "daily"
+    ],
+    "moods": [
+      "fresh",
+      "calm"
+    ],
+    "roles": [
+      "sticker",
+      "icon"
+    ],
+    "colors": [
+      "light-blue",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 20
+  },
+  {
+    "assetId": "doodle-051",
+    "file": "doodle-51.svg",
+    "src": "/materials/svg/doodle-51.svg",
+    "name": {
+      "zh": "喷漆罐",
+      "en": "Spray paint can"
+    },
+    "description": "粗黑描边的喷漆罐扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "stationery",
+    "subjects": [
+      "spray-can"
+    ],
+    "keywords": [
+      "喷漆",
+      "涂鸦",
+      "创作",
+      "喷漆罐",
+      "spray paint can"
+    ],
+    "themes": [
+      "art",
+      "urban"
+    ],
+    "moods": [
+      "creative",
+      "energetic"
+    ],
+    "roles": [
+      "sticker",
+      "icon"
+    ],
+    "colors": [
+      "red",
+      "gray",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 31
+  },
+  {
+    "assetId": "doodle-052",
+    "file": "doodle-52.svg",
+    "src": "/materials/svg/doodle-52.svg",
+    "name": {
+      "zh": "长翅膀笑脸",
+      "en": "Winged smiley"
+    },
+    "description": "粗黑描边的长翅膀笑脸扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "symbol",
+    "subjects": [
+      "winged-smiley"
+    ],
+    "keywords": [
+      "笑脸",
+      "翅膀",
+      "飞行",
+      "长翅膀笑脸",
+      "winged smiley"
+    ],
+    "themes": [
+      "cute",
+      "fantasy"
+    ],
+    "moods": [
+      "cheerful",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "red",
+      "yellow",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 18
+  },
+  {
+    "assetId": "doodle-053",
+    "file": "doodle-53.svg",
+    "src": "/materials/svg/doodle-53.svg",
+    "name": {
+      "zh": "绿色方块角色",
+      "en": "Green block character"
+    },
+    "description": "粗黑描边的绿色方块角色扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "block-character"
+    ],
+    "keywords": [
+      "方块角色",
+      "绿色",
+      "长腿",
+      "绿色方块角色",
+      "green block character"
+    ],
+    "themes": [
+      "cute",
+      "geometry"
+    ],
+    "moods": [
+      "cute",
+      "calm"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "blue",
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 16
+  },
+  {
+    "assetId": "doodle-054",
+    "file": "doodle-54.svg",
+    "src": "/materials/svg/doodle-54.svg",
+    "name": {
+      "zh": "芝麻汉堡",
+      "en": "Sesame burger"
+    },
+    "description": "粗黑描边的芝麻汉堡扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "burger"
+    ],
+    "keywords": [
+      "汉堡",
+      "芝麻",
+      "快餐",
+      "芝麻汉堡",
+      "sesame burger"
+    ],
+    "themes": [
+      "food"
+    ],
+    "moods": [
+      "cheerful",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "brown",
+      "green",
+      "yellow",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 23
+  },
+  {
+    "assetId": "doodle-055",
+    "file": "doodle-55.svg",
+    "src": "/materials/svg/doodle-55.svg",
+    "name": {
+      "zh": "红黄旋涡",
+      "en": "Red yellow swirl"
+    },
+    "description": "粗黑描边的红黄旋涡扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "symbol",
+    "subjects": [
+      "swirl"
+    ],
+    "keywords": [
+      "旋涡",
+      "红色",
+      "黄色",
+      "红黄旋涡",
+      "red yellow swirl"
+    ],
+    "themes": [
+      "abstract",
+      "retro"
+    ],
+    "moods": [
+      "energetic",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "red",
+      "yellow",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 7
+  },
+  {
+    "assetId": "doodle-056",
+    "file": "doodle-56.svg",
+    "src": "/materials/svg/doodle-56.svg",
+    "name": {
+      "zh": "灰色音箱",
+      "en": "Gray speaker"
+    },
+    "description": "粗黑描边的灰色音箱扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "music",
+    "subjects": [
+      "speaker"
+    ],
+    "keywords": [
+      "音箱",
+      "扬声器",
+      "音乐",
+      "灰色音箱",
+      "gray speaker"
+    ],
+    "themes": [
+      "music",
+      "technology"
+    ],
+    "moods": [
+      "energetic",
+      "retro"
+    ],
+    "roles": [
+      "sticker",
+      "icon"
+    ],
+    "colors": [
+      "gray",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 13
+  },
+  {
+    "assetId": "doodle-057",
+    "file": "doodle-57.svg",
+    "src": "/materials/svg/doodle-57.svg",
+    "name": {
+      "zh": "外星飞碟",
+      "en": "Alien UFO"
+    },
+    "description": "粗黑描边的外星飞碟扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "space",
+    "subjects": [
+      "ufo"
+    ],
+    "keywords": [
+      "外星人",
+      "飞碟",
+      "UFO",
+      "外星飞碟",
+      "alien ufo"
+    ],
+    "themes": [
+      "space",
+      "technology"
+    ],
+    "moods": [
+      "cute",
+      "mysterious"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "gray",
+      "green",
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 17
+  },
+  {
+    "assetId": "doodle-058",
+    "file": "doodle-58.svg",
+    "src": "/materials/svg/doodle-58.svg",
+    "name": {
+      "zh": "橙色彗星",
+      "en": "Orange comet"
+    },
+    "description": "粗黑描边的橙色彗星扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "space",
+    "subjects": [
+      "comet"
+    ],
+    "keywords": [
+      "彗星",
+      "流星",
+      "橙色",
+      "橙色彗星",
+      "orange comet"
+    ],
+    "themes": [
+      "space",
+      "adventure"
+    ],
+    "moods": [
+      "energetic",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "yellow",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 7
+  },
+  {
+    "assetId": "doodle-059",
+    "file": "doodle-59.svg",
+    "src": "/materials/svg/doodle-59.svg",
+    "name": {
+      "zh": "音箱机器人",
+      "en": "Speaker robot"
+    },
+    "description": "粗黑描边的音箱机器人扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "music",
+    "subjects": [
+      "speaker-robot"
+    ],
+    "keywords": [
+      "音箱",
+      "机器人",
+      "音乐",
+      "音箱机器人",
+      "speaker robot"
+    ],
+    "themes": [
+      "music",
+      "technology"
+    ],
+    "moods": [
+      "energetic",
+      "funny"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "gray",
+      "yellow",
+      "red",
+      "indigo",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 28
+  },
+  {
+    "assetId": "doodle-060",
+    "file": "doodle-60.svg",
+    "src": "/materials/svg/doodle-60.svg",
+    "name": {
+      "zh": "蓝色长耳怪",
+      "en": "Blue long-eared monster"
+    },
+    "description": "粗黑描边的蓝色长耳怪扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "long-ear-monster"
+    ],
+    "keywords": [
+      "怪兽",
+      "蓝色",
+      "长耳朵",
+      "蓝色长耳怪",
+      "blue long-eared monster"
+    ],
+    "themes": [
+      "monster",
+      "cute"
+    ],
+    "moods": [
+      "funny",
+      "playful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "blue",
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 15
+  },
+  {
+    "assetId": "doodle-061",
+    "file": "doodle-61.svg",
+    "src": "/materials/svg/doodle-61.svg",
+    "name": {
+      "zh": "点赞拍立得",
+      "en": "Thumbs-up photo"
+    },
+    "description": "粗黑描边的点赞拍立得扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "technology",
+    "subjects": [
+      "instant-photo"
+    ],
+    "keywords": [
+      "照片",
+      "点赞",
+      "拍立得",
+      "点赞拍立得",
+      "thumbs-up photo"
+    ],
+    "themes": [
+      "social",
+      "technology"
+    ],
+    "moods": [
+      "cheerful",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "icon"
+    ],
+    "colors": [
+      "tan",
+      "yellow",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 21
+  },
+  {
+    "assetId": "doodle-062",
+    "file": "doodle-62.svg",
+    "src": "/materials/svg/doodle-62.svg",
+    "name": {
+      "zh": "刺猬",
+      "en": "Hedgehog"
+    },
+    "description": "粗黑描边的刺猬扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "hedgehog"
+    ],
+    "keywords": [
+      "刺猬",
+      "动物",
+      "灰色",
+      "hedgehog"
+    ],
+    "themes": [
+      "nature",
+      "cute"
+    ],
+    "moods": [
+      "calm",
+      "cute"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "gray",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 16
+  },
+  {
+    "assetId": "doodle-063",
+    "file": "doodle-63.svg",
+    "src": "/materials/svg/doodle-63.svg",
+    "name": {
+      "zh": "弯曲钢琴",
+      "en": "Curved piano"
+    },
+    "description": "粗黑描边的弯曲钢琴扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "music",
+    "subjects": [
+      "piano"
+    ],
+    "keywords": [
+      "钢琴",
+      "键盘",
+      "乐器",
+      "弯曲钢琴",
+      "curved piano"
+    ],
+    "themes": [
+      "music",
+      "creative"
+    ],
+    "moods": [
+      "creative",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "gray",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 13
+  },
+  {
+    "assetId": "doodle-064",
+    "file": "doodle-64.svg",
+    "src": "/materials/svg/doodle-64.svg",
+    "name": {
+      "zh": "绿色史莱姆",
+      "en": "Green slime"
+    },
+    "description": "粗黑描边的绿色史莱姆扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "slime"
+    ],
+    "keywords": [
+      "史莱姆",
+      "绿色",
+      "黏液",
+      "绿色史莱姆",
+      "green slime"
+    ],
+    "themes": [
+      "monster",
+      "fantasy"
+    ],
+    "moods": [
+      "funny",
+      "mysterious"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "red",
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 16
+  },
+  {
+    "assetId": "doodle-065",
+    "file": "doodle-65.svg",
+    "src": "/materials/svg/doodle-65.svg",
+    "name": {
+      "zh": "绿色小恐龙",
+      "en": "Green little dinosaur"
+    },
+    "description": "粗黑描边的绿色小恐龙扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "dinosaur"
+    ],
+    "keywords": [
+      "恐龙",
+      "绿色",
+      "怪兽",
+      "绿色小恐龙",
+      "green little dinosaur"
+    ],
+    "themes": [
+      "dinosaur",
+      "cute"
+    ],
+    "moods": [
+      "playful",
+      "funny"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 27
+  },
+  {
+    "assetId": "doodle-066",
+    "file": "doodle-66.svg",
+    "src": "/materials/svg/doodle-66.svg",
+    "name": {
+      "zh": "红绿冰棒",
+      "en": "Red green popsicle"
+    },
+    "description": "粗黑描边的红绿冰棒扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "popsicle"
+    ],
+    "keywords": [
+      "冰棒",
+      "冰淇淋",
+      "甜品",
+      "红绿冰棒",
+      "red green popsicle"
+    ],
+    "themes": [
+      "food",
+      "summer"
+    ],
+    "moods": [
+      "fresh",
+      "cheerful"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "green",
+      "red",
+      "tan",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 13
+  },
+  {
+    "assetId": "doodle-067",
+    "file": "doodle-67.svg",
+    "src": "/materials/svg/doodle-67.svg",
+    "name": {
+      "zh": "蓝色太空肉排",
+      "en": "Blue space drumstick"
+    },
+    "description": "粗黑描边的蓝色太空肉排扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "space-drumstick"
+    ],
+    "keywords": [
+      "肉排",
+      "骨头",
+      "蓝色",
+      "蓝色太空肉排",
+      "blue space drumstick"
+    ],
+    "themes": [
+      "food",
+      "space",
+      "funny"
+    ],
+    "moods": [
+      "funny",
+      "mysterious"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "light-blue",
+      "indigo",
+      "blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 36
+  },
+  {
+    "assetId": "doodle-068",
+    "file": "doodle-68.svg",
+    "src": "/materials/svg/doodle-68.svg",
+    "name": {
+      "zh": "黄色铅笔",
+      "en": "Yellow pencil"
+    },
+    "description": "粗黑描边的黄色铅笔扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "stationery",
+    "subjects": [
+      "pencil"
+    ],
+    "keywords": [
+      "铅笔",
+      "文具",
+      "绘画",
+      "黄色铅笔",
+      "yellow pencil"
+    ],
+    "themes": [
+      "school",
+      "art"
+    ],
+    "moods": [
+      "creative",
+      "calm"
+    ],
+    "roles": [
+      "sticker",
+      "icon"
+    ],
+    "colors": [
+      "orange",
+      "tan",
+      "gray",
+      "pink",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 8
+  },
+  {
+    "assetId": "doodle-069",
+    "file": "doodle-69.svg",
+    "src": "/materials/svg/doodle-69.svg",
+    "name": {
+      "zh": "黄色独眼球怪",
+      "en": "Yellow cyclops ball"
+    },
+    "description": "粗黑描边的黄色独眼球怪扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "cyclops"
+    ],
+    "keywords": [
+      "独眼怪",
+      "黄色",
+      "圆形",
+      "黄色独眼球怪",
+      "yellow cyclops ball"
+    ],
+    "themes": [
+      "monster",
+      "cute"
+    ],
+    "moods": [
+      "funny",
+      "energetic"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "yellow",
+      "orange",
+      "red",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 14
+  },
+  {
+    "assetId": "doodle-070",
+    "file": "doodle-70.svg",
+    "src": "/materials/svg/doodle-70.svg",
+    "name": {
+      "zh": "黄色毛怪",
+      "en": "Yellow furry monster"
+    },
+    "description": "粗黑描边的黄色毛怪扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "furry-monster"
+    ],
+    "keywords": [
+      "怪兽",
+      "黄色",
+      "毛绒",
+      "黄色毛怪",
+      "yellow furry monster"
+    ],
+    "themes": [
+      "monster",
+      "cute"
+    ],
+    "moods": [
+      "funny",
+      "playful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "yellow",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 19
+  },
+  {
+    "assetId": "doodle-071",
+    "file": "doodle-71.svg",
+    "src": "/materials/svg/doodle-71.svg",
+    "name": {
+      "zh": "画笔",
+      "en": "Paint brush"
+    },
+    "description": "粗黑描边的画笔扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "stationery",
+    "subjects": [
+      "paint-brush"
+    ],
+    "keywords": [
+      "画笔",
+      "绘画",
+      "艺术",
+      "paint brush"
+    ],
+    "themes": [
+      "art",
+      "school"
+    ],
+    "moods": [
+      "creative",
+      "calm"
+    ],
+    "roles": [
+      "sticker",
+      "icon"
+    ],
+    "colors": [
+      "gray",
+      "brown",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 12
+  },
+  {
+    "assetId": "doodle-072",
+    "file": "doodle-72.svg",
+    "src": "/materials/svg/doodle-72.svg",
+    "name": {
+      "zh": "游泳圈橘猫",
+      "en": "Cat in swim ring"
+    },
+    "description": "粗黑描边的游泳圈橘猫扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "cat"
+    ],
+    "keywords": [
+      "猫",
+      "游泳圈",
+      "橘猫",
+      "游泳圈橘猫",
+      "cat in swim ring"
+    ],
+    "themes": [
+      "summer",
+      "pet"
+    ],
+    "moods": [
+      "cute",
+      "relaxed"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "yellow",
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 24
+  },
+  {
+    "assetId": "doodle-073",
+    "file": "doodle-73.svg",
+    "src": "/materials/svg/doodle-73.svg",
+    "name": {
+      "zh": "橙色布偶怪",
+      "en": "Orange stitched monster"
+    },
+    "description": "粗黑描边的橙色布偶怪扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "stitched-monster"
+    ],
+    "keywords": [
+      "怪兽",
+      "布偶",
+      "橙色",
+      "橙色布偶怪",
+      "orange stitched monster"
+    ],
+    "themes": [
+      "monster",
+      "handmade"
+    ],
+    "moods": [
+      "funny",
+      "cute"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "orange",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 16
+  },
+  {
+    "assetId": "doodle-074",
+    "file": "doodle-74.svg",
+    "src": "/materials/svg/doodle-74.svg",
+    "name": {
+      "zh": "眼球植物",
+      "en": "Eyeball plant"
+    },
+    "description": "粗黑描边的眼球植物扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "fantasy",
+    "subjects": [
+      "eyeball-plant"
+    ],
+    "keywords": [
+      "眼球",
+      "植物",
+      "怪异",
+      "眼球植物",
+      "eyeball plant"
+    ],
+    "themes": [
+      "fantasy",
+      "monster"
+    ],
+    "moods": [
+      "mysterious",
+      "funny"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 26
+  },
+  {
+    "assetId": "doodle-075",
+    "file": "doodle-75.svg",
+    "src": "/materials/svg/doodle-75.svg",
+    "name": {
+      "zh": "蓝白条纹角色",
+      "en": "Blue striped character"
+    },
+    "description": "粗黑描边的蓝白条纹角色扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "striped-character"
+    ],
+    "keywords": [
+      "条纹角色",
+      "蓝色",
+      "白色",
+      "蓝白条纹角色",
+      "blue striped character"
+    ],
+    "themes": [
+      "cute",
+      "abstract"
+    ],
+    "moods": [
+      "cute",
+      "calm"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 19
+  },
+  {
+    "assetId": "doodle-076",
+    "file": "doodle-76.svg",
+    "src": "/materials/svg/doodle-76.svg",
+    "name": {
+      "zh": "棕色小狗",
+      "en": "Brown puppy"
+    },
+    "description": "粗黑描边的棕色小狗扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "dog"
+    ],
+    "keywords": [
+      "狗",
+      "小狗",
+      "宠物",
+      "棕色小狗",
+      "brown puppy"
+    ],
+    "themes": [
+      "pet",
+      "cute"
+    ],
+    "moods": [
+      "cute",
+      "playful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "red",
+      "black",
+      "brown"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 20
+  },
+  {
+    "assetId": "doodle-077",
+    "file": "doodle-77.svg",
+    "src": "/materials/svg/doodle-77.svg",
+    "name": {
+      "zh": "蓝色幽灵",
+      "en": "Blue ghost"
+    },
+    "description": "粗黑描边的蓝色幽灵扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "fantasy",
+    "subjects": [
+      "ghost"
+    ],
+    "keywords": [
+      "幽灵",
+      "蓝色",
+      "鬼怪",
+      "蓝色幽灵",
+      "blue ghost"
+    ],
+    "themes": [
+      "fantasy",
+      "holiday"
+    ],
+    "moods": [
+      "cute",
+      "playful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 14
+  },
+  {
+    "assetId": "doodle-078",
+    "file": "doodle-78.svg",
+    "src": "/materials/svg/doodle-78.svg",
+    "name": {
+      "zh": "奶牛",
+      "en": "Cow"
+    },
+    "description": "粗黑描边的奶牛扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "cow"
+    ],
+    "keywords": [
+      "奶牛",
+      "农场",
+      "动物",
+      "cow"
+    ],
+    "themes": [
+      "farm",
+      "nature"
+    ],
+    "moods": [
+      "cute",
+      "calm"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "orange",
+      "pink",
+      "brown",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 39
+  },
+  {
+    "assetId": "doodle-079",
+    "file": "doodle-79.svg",
+    "src": "/materials/svg/doodle-79.svg",
+    "name": {
+      "zh": "绿发男孩",
+      "en": "Green-haired boy"
+    },
+    "description": "粗黑描边的绿发男孩扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "boy"
+    ],
+    "keywords": [
+      "男孩",
+      "绿色头发",
+      "头像",
+      "绿发男孩",
+      "green-haired boy"
+    ],
+    "themes": [
+      "people",
+      "cute"
+    ],
+    "moods": [
+      "cheerful",
+      "cute"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "red",
+      "tan",
+      "black",
+      "green"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 100
+  },
+  {
+    "assetId": "doodle-080",
+    "file": "doodle-80.svg",
+    "src": "/materials/svg/doodle-80.svg",
+    "name": {
+      "zh": "吐舌独眼怪",
+      "en": "Tongue cyclops"
+    },
+    "description": "粗黑描边的吐舌独眼怪扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "cyclops"
+    ],
+    "keywords": [
+      "独眼怪",
+      "舌头",
+      "蓝色",
+      "吐舌独眼怪",
+      "tongue cyclops"
+    ],
+    "themes": [
+      "monster",
+      "funny"
+    ],
+    "moods": [
+      "funny",
+      "energetic"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "blue",
+      "black",
+      "green"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 24
+  },
+  {
+    "assetId": "doodle-081",
+    "file": "doodle-81.svg",
+    "src": "/materials/svg/doodle-81.svg",
+    "name": {
+      "zh": "圣诞袜角色",
+      "en": "Christmas stocking character"
+    },
+    "description": "粗黑描边的圣诞袜角色扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "stocking-character"
+    ],
+    "keywords": [
+      "圣诞袜",
+      "冬天",
+      "角色",
+      "圣诞袜角色",
+      "christmas stocking character"
+    ],
+    "themes": [
+      "winter",
+      "holiday"
+    ],
+    "moods": [
+      "cute",
+      "cheerful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "red",
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 35
+  },
+  {
+    "assetId": "doodle-082",
+    "file": "doodle-82.svg",
+    "src": "/materials/svg/doodle-82.svg",
+    "name": {
+      "zh": "蓝色独眼怪",
+      "en": "Blue cyclops"
+    },
+    "description": "粗黑描边的蓝色独眼怪扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "cyclops"
+    ],
+    "keywords": [
+      "独眼怪",
+      "蓝色",
+      "怪兽",
+      "蓝色独眼怪",
+      "blue cyclops"
+    ],
+    "themes": [
+      "monster",
+      "cute"
+    ],
+    "moods": [
+      "funny",
+      "playful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "blue",
+      "green",
+      "red",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 13
+  },
+  {
+    "assetId": "doodle-083",
+    "file": "doodle-83.svg",
+    "src": "/materials/svg/doodle-83.svg",
+    "name": {
+      "zh": "蓝色机器人",
+      "en": "Blue robot"
+    },
+    "description": "粗黑描边的蓝色机器人扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "technology",
+    "subjects": [
+      "robot"
+    ],
+    "keywords": [
+      "机器人",
+      "天线",
+      "科技",
+      "蓝色机器人",
+      "blue robot"
+    ],
+    "themes": [
+      "technology",
+      "cute"
+    ],
+    "moods": [
+      "cheerful",
+      "playful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 16
+  },
+  {
+    "assetId": "doodle-084",
+    "file": "doodle-84.svg",
+    "src": "/materials/svg/doodle-84.svg",
+    "name": {
+      "zh": "骷髅头",
+      "en": "Skull"
+    },
+    "description": "粗黑描边的骷髅头扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "symbol",
+    "subjects": [
+      "skull"
+    ],
+    "keywords": [
+      "骷髅",
+      "骨头",
+      "万圣节",
+      "骷髅头",
+      "skull"
+    ],
+    "themes": [
+      "holiday",
+      "fantasy"
+    ],
+    "moods": [
+      "mysterious",
+      "funny"
+    ],
+    "roles": [
+      "sticker",
+      "icon"
+    ],
+    "colors": [
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 8
+  },
+  {
+    "assetId": "doodle-085",
+    "file": "doodle-85.svg",
+    "src": "/materials/svg/doodle-85.svg",
+    "name": {
+      "zh": "粉色甜甜圈",
+      "en": "Pink donut"
+    },
+    "description": "粗黑描边的粉色甜甜圈扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "donut"
+    ],
+    "keywords": [
+      "甜甜圈",
+      "甜品",
+      "粉色",
+      "粉色甜甜圈",
+      "pink donut"
+    ],
+    "themes": [
+      "food",
+      "cute"
+    ],
+    "moods": [
+      "cute",
+      "cheerful"
+    ],
+    "roles": [
+      "sticker",
+      "hero"
+    ],
+    "colors": [
+      "tan",
+      "pink",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 22
+  },
+  {
+    "assetId": "doodle-086",
+    "file": "doodle-86.svg",
+    "src": "/materials/svg/doodle-86.svg",
+    "name": {
+      "zh": "旋涡棒棒糖",
+      "en": "Swirl lollipop"
+    },
+    "description": "粗黑描边的旋涡棒棒糖扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "lollipop"
+    ],
+    "keywords": [
+      "棒棒糖",
+      "糖果",
+      "甜品",
+      "旋涡棒棒糖",
+      "swirl lollipop"
+    ],
+    "themes": [
+      "food",
+      "cute"
+    ],
+    "moods": [
+      "cheerful",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "tan",
+      "red",
+      "light-blue",
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 27
+  },
+  {
+    "assetId": "doodle-087",
+    "file": "doodle-87.svg",
+    "src": "/materials/svg/doodle-87.svg",
+    "name": {
+      "zh": "老虎棒棒糖",
+      "en": "Tiger lollipop"
+    },
+    "description": "粗黑描边的老虎棒棒糖扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "lollipop"
+    ],
+    "keywords": [
+      "棒棒糖",
+      "老虎",
+      "糖果",
+      "老虎棒棒糖",
+      "tiger lollipop"
+    ],
+    "themes": [
+      "food",
+      "cute"
+    ],
+    "moods": [
+      "cute",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "red",
+      "yellow",
+      "light-blue",
+      "orange",
+      "blue",
+      "tan",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "heavy",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 71
+  },
+  {
+    "assetId": "doodle-088",
+    "file": "doodle-88.svg",
+    "src": "/materials/svg/doodle-88.svg",
+    "name": {
+      "zh": "花朵棒棒糖",
+      "en": "Flower lollipop"
+    },
+    "description": "粗黑描边的花朵棒棒糖扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "lollipop"
+    ],
+    "keywords": [
+      "棒棒糖",
+      "花朵",
+      "糖果",
+      "花朵棒棒糖",
+      "flower lollipop"
+    ],
+    "themes": [
+      "food",
+      "nature"
+    ],
+    "moods": [
+      "cheerful",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "yellow",
+      "red",
+      "tan",
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 22
+  },
+  {
+    "assetId": "doodle-089",
+    "file": "doodle-89.svg",
+    "src": "/materials/svg/doodle-89.svg",
+    "name": {
+      "zh": "红色嘴唇",
+      "en": "Red lips"
+    },
+    "description": "粗黑描边的红色嘴唇扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "face-part",
+    "subjects": [
+      "lips"
+    ],
+    "keywords": [
+      "嘴唇",
+      "红唇",
+      "表情",
+      "红色嘴唇",
+      "red lips"
+    ],
+    "themes": [
+      "romance",
+      "funny"
+    ],
+    "moods": [
+      "funny",
+      "romantic"
+    ],
+    "roles": [
+      "facePart",
+      "sticker"
+    ],
+    "colors": [
+      "red",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 7
+  },
+  {
+    "assetId": "doodle-090",
+    "file": "doodle-90.svg",
+    "src": "/materials/svg/doodle-90.svg",
+    "name": {
+      "zh": "纸飞机",
+      "en": "Paper airplane"
+    },
+    "description": "粗黑描边的纸飞机扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "symbol",
+    "subjects": [
+      "paper-airplane"
+    ],
+    "keywords": [
+      "纸飞机",
+      "飞行",
+      "折纸",
+      "paper airplane"
+    ],
+    "themes": [
+      "adventure",
+      "school"
+    ],
+    "moods": [
+      "calm",
+      "playful"
+    ],
+    "roles": [
+      "sticker",
+      "decoration"
+    ],
+    "colors": [
+      "gray",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 4
+  },
+  {
+    "assetId": "doodle-091",
+    "file": "doodle-91.svg",
+    "src": "/materials/svg/doodle-91.svg",
+    "name": {
+      "zh": "黄色星球",
+      "en": "Yellow planet"
+    },
+    "description": "粗黑描边的黄色星球扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "space",
+    "subjects": [
+      "planet"
+    ],
+    "keywords": [
+      "星球",
+      "月球",
+      "宇宙",
+      "黄色星球",
+      "yellow planet"
+    ],
+    "themes": [
+      "space",
+      "adventure"
+    ],
+    "moods": [
+      "mysterious",
+      "playful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "indigo",
+      "green",
+      "yellow",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 23
+  },
+  {
+    "assetId": "doodle-092",
+    "file": "doodle-92.svg",
+    "src": "/materials/svg/doodle-92.svg",
+    "name": {
+      "zh": "冬帽蓝色角色",
+      "en": "Winter blue character"
+    },
+    "description": "粗黑描边的冬帽蓝色角色扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "character",
+    "subjects": [
+      "winter-character"
+    ],
+    "keywords": [
+      "冬帽",
+      "蓝色角色",
+      "冬天",
+      "冬帽蓝色角色",
+      "winter blue character"
+    ],
+    "themes": [
+      "winter",
+      "cute"
+    ],
+    "moods": [
+      "cute",
+      "cozy"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "red",
+      "green",
+      "light-blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 26
+  },
+  {
+    "assetId": "doodle-093",
+    "file": "doodle-93.svg",
+    "src": "/materials/svg/doodle-93.svg",
+    "name": {
+      "zh": "升空火箭",
+      "en": "Launching rocket"
+    },
+    "description": "粗黑描边的升空火箭扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "space",
+    "subjects": [
+      "rocket"
+    ],
+    "keywords": [
+      "火箭",
+      "升空",
+      "烟雾",
+      "升空火箭",
+      "launching rocket"
+    ],
+    "themes": [
+      "space",
+      "technology",
+      "adventure"
+    ],
+    "moods": [
+      "energetic",
+      "cheerful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "green",
+      "gray",
+      "blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 24
+  },
+  {
+    "assetId": "doodle-094",
+    "file": "doodle-94.svg",
+    "src": "/materials/svg/doodle-94.svg",
+    "name": {
+      "zh": "WTF 对话框",
+      "en": "WTF speech bubble"
+    },
+    "description": "粗黑描边的WTF 对话框扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "callout",
+    "subjects": [
+      "text-callout"
+    ],
+    "keywords": [
+      "WTF",
+      "对话框",
+      "文字",
+      "WTF 对话框",
+      "wtf speech bubble"
+    ],
+    "themes": [
+      "social",
+      "funny"
+    ],
+    "moods": [
+      "funny",
+      "energetic"
+    ],
+    "roles": [
+      "callout",
+      "sticker"
+    ],
+    "colors": [
+      "yellow",
+      "green",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top",
+      "center"
+    ],
+    "visualWeight": "light",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": true,
+    "pathCount": 8
+  },
+  {
+    "assetId": "doodle-095",
+    "file": "doodle-95.svg",
+    "src": "/materials/svg/doodle-95.svg",
+    "name": {
+      "zh": "墨镜香蕉",
+      "en": "Sunglasses banana"
+    },
+    "description": "粗黑描边的墨镜香蕉扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "food",
+    "subjects": [
+      "banana"
+    ],
+    "keywords": [
+      "香蕉",
+      "墨镜",
+      "水果",
+      "墨镜香蕉",
+      "sunglasses banana"
+    ],
+    "themes": [
+      "food",
+      "summer",
+      "funny"
+    ],
+    "moods": [
+      "funny",
+      "cheerful"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "yellow",
+      "blue",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 19
+  },
+  {
+    "assetId": "doodle-096",
+    "file": "doodle-96.svg",
+    "src": "/materials/svg/doodle-96.svg",
+    "name": {
+      "zh": "红色马克笔",
+      "en": "Red marker"
+    },
+    "description": "粗黑描边的红色马克笔扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "stationery",
+    "subjects": [
+      "marker"
+    ],
+    "keywords": [
+      "马克笔",
+      "画笔",
+      "文具",
+      "红色马克笔",
+      "red marker"
+    ],
+    "themes": [
+      "art",
+      "school"
+    ],
+    "moods": [
+      "creative",
+      "energetic"
+    ],
+    "roles": [
+      "sticker",
+      "icon"
+    ],
+    "colors": [
+      "orange",
+      "pink",
+      "red",
+      "black"
+    ],
+    "recommendedPositions": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 9
+  },
+  {
+    "assetId": "doodle-097",
+    "file": "doodle-97.svg",
+    "src": "/materials/svg/doodle-97.svg",
+    "name": {
+      "zh": "吹萨克斯的蓝熊",
+      "en": "Blue bear with saxophone"
+    },
+    "description": "粗黑描边的吹萨克斯的蓝熊扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "music",
+    "subjects": [
+      "saxophone-bear"
+    ],
+    "keywords": [
+      "熊",
+      "萨克斯",
+      "音乐",
+      "吹萨克斯的蓝熊",
+      "blue bear with saxophone"
+    ],
+    "themes": [
+      "music",
+      "cute"
+    ],
+    "moods": [
+      "creative",
+      "calm"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "blue",
+      "tan",
+      "pink",
+      "orange",
+      "gray",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 19
+  },
+  {
+    "assetId": "doodle-099",
+    "file": "doodle-99.svg",
+    "src": "/materials/svg/doodle-99.svg",
+    "name": {
+      "zh": "长尾灰猫",
+      "en": "Long-tail gray cat"
+    },
+    "description": "粗黑描边的长尾灰猫扁平卡通贴纸，色彩明亮，透明背景，适合作为锁屏装饰元素。",
+    "category": "animal",
+    "subjects": [
+      "cat"
+    ],
+    "keywords": [
+      "猫",
+      "灰猫",
+      "长尾巴",
+      "长尾灰猫",
+      "long-tail gray cat"
+    ],
+    "themes": [
+      "pet",
+      "cute"
+    ],
+    "moods": [
+      "calm",
+      "cute"
+    ],
+    "roles": [
+      "hero",
+      "sticker"
+    ],
+    "colors": [
+      "gray",
+      "black"
+    ],
+    "recommendedPositions": [
+      "center",
+      "bottom-center"
+    ],
+    "visualWeight": "medium",
+    "style": [
+      "cartoon",
+      "doodle",
+      "bold-outline",
+      "flat-color"
+    ],
+    "width": 600,
+    "height": 600,
+    "viewBox": "0 0 600 600",
+    "transparent": true,
+    "recolorable": true,
+    "containsText": false,
+    "pathCount": 12
+  }
+]

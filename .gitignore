@@ -14,7 +14,6 @@ dist-ssr
 __pycache__/
 *.py[cod]
 backend/.env
-public/materials/
 
 # Editor directories and files
 .vscode/*
