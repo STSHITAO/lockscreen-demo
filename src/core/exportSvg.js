@@ -141,18 +141,71 @@ function renderCard(layer) {
   ].join('')
 }
 
-function renderLayer(layer) {
+function safeId(value = '') {
+  return String(value).replace(/[^a-zA-Z0-9_-]/g, '-')
+}
+
+function namespaceSvgClasses(svg, assetId) {
+  const prefix = `asset-${safeId(assetId)}-`
+  return svg
+    .replaceAll(/\.cls-/g, `.${prefix}cls-`)
+    .replaceAll(/class=(["'])cls-/g, `class=$1${prefix}cls-`)
+}
+
+function embeddedSvgMarkup(svgText, layer) {
+  const cleaned = String(svgText || '')
+    .replace(/<\?xml[\s\S]*?\?>/gi, '')
+    .replace(/<!--[\s\S]*?-->/g, '')
+    .trim()
+  const match = cleaned.match(/<svg\b([^>]*)>([\s\S]*?)<\/svg>\s*$/i)
+  if (!match) throw new Error(`素材 ${layer.assetId || layer.src} 不是有效 SVG`)
+
+  const viewBoxMatch = match[1].match(/\bviewBox=(["'])(.*?)\1/i)
+  const viewBox = viewBoxMatch?.[2] || '0 0 600 600'
+  const x = number(layer.x)
+  const y = number(layer.y)
+  const width = number(layer.width, 120)
+  const height = number(layer.height, width)
+  const rotation = number(layer.rotation)
+  const opacity = number(layer.opacity, 1)
+  const centerX = x + width / 2
+  const centerY = y + height / 2
+  const inner = namespaceSvgClasses(match[2], layer.assetId || layer.id)
+
+  return `<svg data-asset-id="${escapeXml(layer.assetId)}" x="${x}" y="${y}" width="${width}" height="${height}" viewBox="${escapeXml(viewBox)}" preserveAspectRatio="xMidYMid meet" opacity="${opacity}" transform="rotate(${rotation} ${centerX} ${centerY})">${inner}</svg>`
+}
+
+async function defaultAssetLoader(src) {
+  const response = await fetch(src)
+  if (!response.ok) {
+    throw new Error(`读取素材失败：${src} (${response.status})`)
+  }
+  return response.text()
+}
+
+async function renderAsset(layer, loadAssetSvg) {
+  if (!layer.src || !layer.assetId) return ''
+  const svgText = await loadAssetSvg(layer.src, layer)
+  return embeddedSvgMarkup(svgText, layer)
+}
+
+async function renderLayer(layer, loadAssetSvg) {
   if (layer?.type === 'text') return renderText(layer)
   if (layer?.type === 'shape') return renderShape(layer)
   if (layer?.type === 'widget' || layer?.type === 'glassCard') return renderCard(layer)
+  if (layer?.type === 'asset') return renderAsset(layer, loadAssetSvg)
   return ''
 }
 
-export function dslToSvg(dsl) {
+export async function dslToSvg(dsl, options = {}) {
   const width = number(dsl?.canvas?.width, 390)
   const height = number(dsl?.canvas?.height, 844)
   const background = backgroundMarkup(dsl?.background, width, height)
-  const layers = Array.isArray(dsl?.layers) ? dsl.layers.map(renderLayer).join('') : ''
+  const loadAssetSvg = options.loadAssetSvg || defaultAssetLoader
+  const renderedLayers = Array.isArray(dsl?.layers)
+    ? await Promise.all(dsl.layers.map((layer) => renderLayer(layer, loadAssetSvg)))
+    : []
+  const layers = renderedLayers.join('')
 
   return [
     '<?xml version="1.0" encoding="UTF-8"?>',
@@ -164,8 +217,9 @@ export function dslToSvg(dsl) {
   ].join('')
 }
 
-export function downloadSvg(dsl) {
-  const blob = new Blob([dslToSvg(dsl)], { type: 'image/svg+xml;charset=utf-8' })
+export async function downloadSvg(dsl) {
+  const svg = await dslToSvg(dsl)
+  const blob = new Blob([svg], { type: 'image/svg+xml;charset=utf-8' })
   const url = URL.createObjectURL(blob)
   const link = document.createElement('a')
   link.download = 'lockscreen.svg'

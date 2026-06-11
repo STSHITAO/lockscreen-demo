@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from llm_client import generate_lockscreen_dsl
+from material_catalog import search_materials
 
 
 app = FastAPI(title="LockScreen DSL Generator", version="1.0.0")
@@ -31,3 +32,10 @@ def health_check():
 @app.post("/api/generate-lockscreen")
 def generate_lockscreen(request: GenerateLockScreenRequest):
     return generate_lockscreen_dsl(request.prompt)
+
+
+@app.get("/api/materials/search")
+def search_material_catalog(q: str = "", limit: int = 8):
+    return {
+        "items": search_materials({"query": q}, limit=max(1, min(limit, 20))),
+    }

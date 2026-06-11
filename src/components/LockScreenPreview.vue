@@ -73,6 +73,32 @@ function lineStyle(layer) {
   }
 }
 
+function assetStyle(layer) {
+  return {
+    left: `${numeric(layer.x)}px`,
+    top: `${numeric(layer.y)}px`,
+    width: `${numeric(layer.width, 120)}px`,
+    height: `${numeric(layer.height, layer.width || 120)}px`,
+    opacity: numeric(layer.opacity, 1),
+    transform: `rotate(${numeric(layer.rotation)}deg)`,
+    zIndex: numeric(layer.zIndex, 8),
+  }
+}
+
+function assetImageStyle(layer) {
+  return {
+    objectFit: ['cover', 'contain'].includes(layer.fit) ? layer.fit : 'contain',
+  }
+}
+
+function assetEffectClass(layer) {
+  const effects = layer.effects && typeof layer.effects === 'object' ? layer.effects : {}
+  return {
+    'effect-shadow': Boolean(effects.shadow),
+    'effect-glow': Boolean(effects.glow),
+  }
+}
+
 function cardContent(layer) {
   if (typeof layer.content === 'string') {
     return { title: '', main: layer.content, subtitle: '', icon: '' }
@@ -118,6 +144,23 @@ function cardContent(layer) {
           :class="[`shape-${layer.shape || 'roundedRect'}`, animationClass(layer)]"
           :style="boxStyle(layer)"
         ></div>
+
+        <div
+          v-else-if="layer.type === 'asset' && layer.src"
+          class="layer asset-layer"
+          :style="assetStyle(layer)"
+          :data-asset-id="layer.assetId"
+        >
+          <img
+            class="asset-image"
+            :class="[animationClass(layer), assetEffectClass(layer)]"
+            :src="layer.src"
+            :alt="layer.alt || layer.assetId || 'lockscreen material'"
+            :style="assetImageStyle(layer)"
+            crossorigin="anonymous"
+            draggable="false"
+          />
+        </div>
 
         <div
           v-else-if="layer.type === 'widget' || layer.type === 'glassCard'"
@@ -236,6 +279,7 @@ function cardContent(layer) {
 }
 
 .text-layer {
+  z-index: 20;
   max-width: 350px;
   white-space: nowrap;
   line-height: 1;
@@ -248,6 +292,7 @@ function cardContent(layer) {
 }
 
 .shape-layer {
+  z-index: 4;
   transform-origin: center;
 }
 
@@ -286,7 +331,36 @@ function cardContent(layer) {
   transform-origin: left center;
 }
 
+.asset-layer {
+  display: grid;
+  place-items: center;
+  transform-origin: center;
+  pointer-events: none;
+}
+
+.asset-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+}
+
+.asset-image.effect-shadow {
+  filter: drop-shadow(0 16px 22px rgba(0, 0, 0, 0.3));
+}
+
+.asset-image.effect-glow {
+  filter: drop-shadow(0 0 18px rgba(125, 211, 252, 0.48));
+}
+
+.asset-image.effect-shadow.effect-glow {
+  filter:
+    drop-shadow(0 16px 22px rgba(0, 0, 0, 0.28))
+    drop-shadow(0 0 18px rgba(125, 211, 252, 0.45));
+}
+
 .glass-card {
+  z-index: 24;
   display: flex;
   align-items: center;
   gap: 16px;

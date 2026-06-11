@@ -23,7 +23,7 @@ async function runExport(type) {
   error.value = ''
   try {
     if (type === 'svg') {
-      downloadSvg(props.dsl)
+      await downloadSvg(props.dsl)
     } else if (type === 'png') {
       await exportPng(props.getTarget())
     } else {
