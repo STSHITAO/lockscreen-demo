@@ -1,5 +1,12 @@
 <script setup>
-import { computed, ref } from 'vue'
+import { computed, onBeforeUnmount, ref, watch } from 'vue'
+
+import CardGroup from './CardGroup.vue'
+import InteractionParticle from './InteractionParticle.vue'
+import { animationClassName } from '../core/animationPresets.js'
+import { frameIndexAtElapsed } from '../core/frameSequence.js'
+import { createGestureRecognizer } from '../core/gestureRecognizer.js'
+import { createInteractionRuntime } from '../core/interactionRuntime.js'
 
 const props = defineProps({
   dsl: {
@@ -9,6 +16,21 @@ const props = defineProps({
 })
 
 const screenElement = ref(null)
+const frameIndexes = ref({})
+const frameTimers = new Map()
+const interactionState = ref({
+  effects: {},
+  hiddenLayerIds: [],
+  activeCards: {},
+  transitioningGroups: [],
+  particles: [],
+})
+let interactionRuntime = null
+let unsubscribeRuntime = null
+
+const gestureRecognizer = createGestureRecognizer({
+  emit: (event) => interactionRuntime?.trigger(event),
+})
 
 defineExpose({ screenElement })
 
@@ -26,9 +48,119 @@ function numeric(value, fallback = 0) {
 }
 
 function animationClass(layer) {
-  return ['float', 'pulse', 'rotate'].includes(layer.animation)
-    ? `animation-${layer.animation}`
-    : ''
+  const override = interactionState.value.effects[layer.id]
+  return animationClassName(override?.animation || layer.animation)
+}
+
+function runtimeStyle(layer) {
+  const effect = interactionState.value.effects[layer.id]
+  if (!effect) return {}
+  const durations = {
+    float: 5000,
+    pulse: 900,
+    rotate: 2400,
+    twinkle: 700,
+    'drift-left': 2600,
+    'drift-right': 2600,
+    sway: 1800,
+    bounce: 1200,
+    fade: 1600,
+    breathe: 1800,
+  }
+  return {
+    animationDuration: `${(durations[effect.animation] || 1000) / (effect.speed || 1)}ms`,
+    '--interaction-peak-scale': String(
+      1 + 0.1 * (effect.intensity || 1),
+    ),
+  }
+}
+
+function withRuntimeStyle(style, layer) {
+  return { ...style, ...runtimeStyle(layer) }
+}
+
+function isInteractiveTarget(targetId) {
+  return (props.dsl?.interactions || []).some(
+    (interaction) => interaction?.targetId === targetId,
+  )
+}
+
+function layerRuntimeClass(layer) {
+  return {
+    'interactive-layer': isInteractiveTarget(layer.id),
+    'card-transitioning': cardGroupForLayer(layer.id)?.id &&
+      interactionState.value.transitioningGroups.includes(
+        cardGroupForLayer(layer.id).id,
+      ),
+  }
+}
+
+function cardGroupForLayer(layerId) {
+  return (props.dsl?.cardGroups || []).find((group) =>
+    (group.cardIds || []).includes(layerId),
+  )
+}
+
+function isLayerVisible(layerId) {
+  if (interactionState.value.hiddenLayerIds.includes(layerId)) return false
+  const group = cardGroupForLayer(layerId)
+  if (!group) return true
+  const activeIndex =
+    interactionState.value.activeCards[group.id] ??
+    Number(group.activeIndex) ??
+    0
+  return group.cardIds?.[activeIndex] === layerId
+}
+
+function handlePointerDown(event, targetId) {
+  if (!isInteractiveTarget(targetId)) return
+  event.currentTarget?.setPointerCapture?.(event.pointerId)
+  gestureRecognizer.pointerDown(
+    targetId,
+    event.clientX,
+    event.clientY,
+    event.timeStamp,
+  )
+}
+
+function handlePointerMove(event, targetId) {
+  if (!isInteractiveTarget(targetId)) return
+  gestureRecognizer.pointerMove(targetId, event.clientX, event.clientY)
+}
+
+function handlePointerUp(event, targetId) {
+  if (!isInteractiveTarget(targetId)) return
+  gestureRecognizer.pointerUp(
+    targetId,
+    event.clientX,
+    event.clientY,
+    event.timeStamp,
+  )
+}
+
+function handleRuntimeTrigger(event) {
+  interactionRuntime?.trigger(event)
+}
+
+function cardGroupStyle(group) {
+  const firstLayer = (props.dsl?.layers || []).find(
+    (layer) => layer.id === group.cardIds?.[0],
+  )
+  return {
+    left: `${numeric(firstLayer?.x, 32)}px`,
+    top: `${numeric(firstLayer?.y, 690)}px`,
+    width: `${numeric(firstLayer?.width, 326)}px`,
+    height: `${numeric(firstLayer?.height, 96)}px`,
+  }
+}
+
+function setupInteractionRuntime() {
+  unsubscribeRuntime?.()
+  interactionRuntime?.destroy()
+  interactionRuntime = createInteractionRuntime(props.dsl || {})
+  unsubscribeRuntime = interactionRuntime.subscribe((state) => {
+    interactionState.value = state
+  })
 }
 
 function textStyle(layer) {
@@ -99,6 +231,69 @@ function assetEffectClass(layer) {
   }
 }
 
+function clearFrameTimers() {
+  for (const timer of frameTimers.values()) {
+    window.clearInterval(timer)
+  }
+  frameTimers.clear()
+}
+
+function setupFrameAnimations() {
+  clearFrameTimers()
+  frameIndexes.value = {}
+
+  for (const layer of props.dsl?.layers || []) {
+    if (
+      layer?.type !== 'frameAnimation' ||
+      !Array.isArray(layer.frames) ||
+      !layer.frames.length
+    ) {
+      continue
+    }
+
+    const startedAt = Date.now()
+    const updateFrame = () => {
+      const speed =
+        interactionState.value.effects[layer.id]?.speed || 1
+      frameIndexes.value[layer.id] = frameIndexAtElapsed(
+        (Date.now() - startedAt) * speed,
+        layer.frames.length,
+        layer.fps,
+        layer.loop !== false,
+      )
+    }
+    updateFrame()
+    const fps = Math.min(24, Math.max(1, numeric(layer.fps, 6)))
+    frameTimers.set(
+      layer.id,
+      window.setInterval(updateFrame, Math.max(32, 1000 / fps)),
+    )
+  }
+}
+
+function currentFrame(layer) {
+  if (!Array.isArray(layer.frames) || !layer.frames.length) {
+    return layer.poster || ''
+  }
+  const index = frameIndexes.value[layer.id] || 0
+  return layer.frames[index] || layer.poster || layer.frames[0]
+}
+
+watch(() => props.dsl?.layers, setupFrameAnimations, {
+  deep: true,
+  immediate: true,
+})
+watch(() => props.dsl, setupInteractionRuntime, {
+  deep: true,
+  immediate: true,
+})
+onBeforeUnmount(() => {
+  clearFrameTimers()
+  gestureRecognizer.destroy()
+  unsubscribeRuntime?.()
+  interactionRuntime?.destroy()
+})
+
 function cardContent(layer) {
   if (typeof layer.content === 'string') {
     return { title: '', main: layer.content, subtitle: '', icon: '' }
@@ -124,32 +319,80 @@ function cardContent(layer) {
       <template v-for="layer in dsl.layers || []" :key="layer.id">
         <div
           v-if="layer.type === 'text'"
+          v-show="isLayerVisible(layer.id)"
           class="layer text-layer"
-          :class="[animationClass(layer), `role-${layer.role || 'text'}`]"
-          :style="textStyle(layer)"
+          :class="[animationClass(layer), `role-${layer.role || 'text'}`, layerRuntimeClass(layer)]"
+          :style="withRuntimeStyle(textStyle(layer), layer)"
+          :data-interactive-id="isInteractiveTarget(layer.id) ? layer.id : undefined"
+          @pointerdown="handlePointerDown($event, layer.id)"
+          @pointermove="handlePointerMove($event, layer.id)"
+          @pointerup="handlePointerUp($event, layer.id)"
+          @pointercancel="gestureRecognizer.cancel"
         >
           {{ layer.content }}
         </div>
 
         <div
           v-else-if="layer.type === 'shape' && layer.shape === 'line'"
+          v-show="isLayerVisible(layer.id)"
           class="layer shape-line"
-          :class="animationClass(layer)"
-          :style="lineStyle(layer)"
+          :class="[animationClass(layer), layerRuntimeClass(layer)]"
+          :style="withRuntimeStyle(lineStyle(layer), layer)"
+          :data-interactive-id="isInteractiveTarget(layer.id) ? layer.id : undefined"
+          @pointerdown="handlePointerDown($event, layer.id)"
+          @pointermove="handlePointerMove($event, layer.id)"
+          @pointerup="handlePointerUp($event, layer.id)"
+          @pointercancel="gestureRecognizer.cancel"
         ></div>
 
         <div
           v-else-if="layer.type === 'shape'"
+          v-show="isLayerVisible(layer.id)"
           class="layer shape-layer"
-          :class="[`shape-${layer.shape || 'roundedRect'}`, animationClass(layer)]"
-          :style="boxStyle(layer)"
+          :class="[`shape-${layer.shape || 'roundedRect'}`, animationClass(layer), layerRuntimeClass(layer)]"
+          :style="withRuntimeStyle(boxStyle(layer), layer)"
+          :data-interactive-id="isInteractiveTarget(layer.id) ? layer.id : undefined"
+          @pointerdown="handlePointerDown($event, layer.id)"
+          @pointermove="handlePointerMove($event, layer.id)"
+          @pointerup="handlePointerUp($event, layer.id)"
+          @pointercancel="gestureRecognizer.cancel"
         ></div>
 
         <div
-          v-else-if="layer.type === 'asset' && layer.src"
-          class="layer asset-layer"
-          :style="assetStyle(layer)"
+          v-else-if="layer.type === 'frameAnimation' && currentFrame(layer)"
+          v-show="isLayerVisible(layer.id)"
+          class="layer asset-layer frame-animation-layer"
+          :class="[animationClass(layer), layerRuntimeClass(layer)]"
+          :style="withRuntimeStyle(assetStyle(layer), layer)"
           :data-asset-id="layer.assetId"
+          :data-interactive-id="isInteractiveTarget(layer.id) ? layer.id : undefined"
+          @pointerdown="handlePointerDown($event, layer.id)"
+          @pointermove="handlePointerMove($event, layer.id)"
+          @pointerup="handlePointerUp($event, layer.id)"
+          @pointercancel="gestureRecognizer.cancel"
+        >
+          <img
+            class="asset-image frame-animation-image"
+            :src="currentFrame(layer)"
+            :alt="layer.alt || layer.assetId || 'animated lockscreen material'"
+            :style="assetImageStyle(layer)"
+            crossorigin="anonymous"
+            draggable="false"
+          />
+        </div>
+
+        <div
+          v-else-if="layer.type === 'asset' && layer.src"
+          v-show="isLayerVisible(layer.id)"
+          class="layer asset-layer"
+          :class="layerRuntimeClass(layer)"
+          :style="withRuntimeStyle(assetStyle(layer), layer)"
+          :data-asset-id="layer.assetId"
+          :data-interactive-id="isInteractiveTarget(layer.id) ? layer.id : undefined"
+          @pointerdown="handlePointerDown($event, layer.id)"
+          @pointermove="handlePointerMove($event, layer.id)"
+          @pointerup="handlePointerUp($event, layer.id)"
+          @pointercancel="gestureRecognizer.cancel"
         >
           <img
             class="asset-image"
@@ -164,12 +407,19 @@ function cardContent(layer) {
 
         <div
           v-else-if="layer.type === 'widget' || layer.type === 'glassCard'"
+          v-show="isLayerVisible(layer.id)"
           class="layer glass-card"
           :class="[
             animationClass(layer),
+            layerRuntimeClass(layer),
             layer.type === 'widget' ? `widget-${layer.role || 'generic'}` : 'dsl-glass-card',
           ]"
-          :style="boxStyle(layer)"
+          :style="withRuntimeStyle(boxStyle(layer), layer)"
+          :data-interactive-id="isInteractiveTarget(layer.id) ? layer.id : undefined"
+          @pointerdown="handlePointerDown($event, layer.id)"
+          @pointermove="handlePointerMove($event, layer.id)"
+          @pointerup="handlePointerUp($event, layer.id)"
+          @pointercancel="gestureRecognizer.cancel"
         >
           <div v-if="cardContent(layer).icon" class="card-icon">
             {{ cardContent(layer).icon }}
@@ -187,6 +437,21 @@ function cardContent(layer) {
           </div>
         </div>
       </template>
+
+      <InteractionParticle
+        v-for="particle in interactionState.particles"
+        :key="particle.id"
+        :particle="particle"
+      />
+
+      <CardGroup
+        v-for="group in dsl.cardGroups || []"
+        :key="group.id"
+        :group="group"
+        :active-index="interactionState.activeCards[group.id] ?? group.activeIndex ?? 0"
+        :overlay-style="cardGroupStyle(group)"
+        @trigger="handleRuntimeTrigger"
+      />
 
       <div class="home-indicator" aria-hidden="true"></div>
     </div>
@@ -326,6 +591,97 @@ function cardContent(layer) {
   filter: drop-shadow(0 0 6px currentColor);
 }
 
+.shape-crescent {
+  border-radius: 50%;
+  background: currentColor !important;
+  filter: drop-shadow(0 0 18px color-mix(in srgb, currentColor 55%, transparent));
+  -webkit-mask: radial-gradient(circle at 68% 36%, transparent 0 41%, #000 43%);
+  mask: radial-gradient(circle at 68% 36%, transparent 0 41%, #000 43%);
+}
+
+.shape-heart {
+  background: currentColor !important;
+  clip-path: polygon(
+    50% 100%,
+    10% 61%,
+    0 36%,
+    4% 17%,
+    18% 4%,
+    35% 3%,
+    50% 20%,
+    65% 3%,
+    82% 4%,
+    96% 17%,
+    100% 36%,
+    90% 61%
+  );
+  filter: drop-shadow(0 0 10px color-mix(in srgb, currentColor 45%, transparent));
+}
+
+.shape-cloud {
+  border-radius: 999px;
+  background: currentColor !important;
+  transform-origin: center;
+}
+
+.shape-cloud::before,
+.shape-cloud::after {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.shape-cloud::before {
+  left: 16%;
+  bottom: 28%;
+  width: 42%;
+  height: 72%;
+}
+
+.shape-cloud::after {
+  right: 15%;
+  bottom: 25%;
+  width: 48%;
+  height: 82%;
+}
+
+.shape-sparkle {
+  background: currentColor !important;
+  clip-path: polygon(
+    50% 0,
+    59% 39%,
+    100% 50%,
+    59% 61%,
+    50% 100%,
+    41% 61%,
+    0 50%,
+    41% 39%
+  );
+  filter: drop-shadow(0 0 8px currentColor);
+}
+
+.shape-planet {
+  overflow: visible;
+  border-radius: 50%;
+  background: currentColor !important;
+  transform-origin: center;
+  box-shadow: inset -10px -8px 18px rgba(15, 23, 42, 0.26);
+}
+
+.shape-planet::after {
+  position: absolute;
+  top: 39%;
+  left: -12%;
+  width: 124%;
+  height: 22%;
+  content: "";
+  border: max(2px, 0.06em) solid currentColor;
+  border-radius: 50%;
+  transform: rotate(-18deg);
+  box-shadow: 0 0 8px color-mix(in srgb, currentColor 42%, transparent);
+}
+
 .shape-line {
   border-radius: 999px;
   transform-origin: left center;
@@ -338,11 +694,26 @@ function cardContent(layer) {
   pointer-events: none;
 }
 
+.interactive-layer {
+  pointer-events: auto;
+  cursor: pointer;
+  touch-action: none;
+  user-select: none;
+}
+
+.card-transitioning {
+  transition: opacity 180ms ease, translate 180ms ease;
+}
+
 .asset-image {
   display: block;
   width: 100%;
   height: 100%;
   user-select: none;
+}
+
+.frame-animation-image {
+  will-change: contents;
 }
 
 .asset-image.effect-shadow {
@@ -455,6 +826,34 @@ function cardContent(layer) {
   animation: rotate 14s linear infinite;
 }
 
+.animation-twinkle {
+  animation: twinkle 1.6s ease-in-out infinite;
+}
+
+.animation-drift-left {
+  animation: driftLeft 5.5s ease-in-out infinite;
+}
+
+.animation-drift-right {
+  animation: driftRight 5.5s ease-in-out infinite;
+}
+
+.animation-sway {
+  animation: sway 3.8s ease-in-out infinite;
+}
+
+.animation-bounce {
+  animation: bounce 2.4s ease-in-out infinite;
+}
+
+.animation-fade {
+  animation: fade 3.6s ease-in-out infinite;
+}
+
+.animation-breathe {
+  animation: breathe 4.2s ease-in-out infinite;
+}
+
 @keyframes float {
   0%,
   100% {
@@ -471,13 +870,90 @@ function cardContent(layer) {
     scale: 1;
   }
   50% {
-    scale: 1.08;
+    scale: var(--interaction-peak-scale, 1.08);
   }
 }
 
 @keyframes rotate {
   to {
     rotate: 360deg;
+  }
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.42;
+    scale: 0.82;
+  }
+  50% {
+    opacity: 1;
+    scale: var(--interaction-peak-scale, 1.16);
+  }
+}
+
+@keyframes driftLeft {
+  0%,
+  100% {
+    translate: 12px 0;
+  }
+  50% {
+    translate: -18px -4px;
+  }
+}
+
+@keyframes driftRight {
+  0%,
+  100% {
+    translate: -12px 0;
+  }
+  50% {
+    translate: 18px -4px;
+  }
+}
+
+@keyframes sway {
+  0%,
+  100% {
+    rotate: -5deg;
+  }
+  50% {
+    rotate: 5deg;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+  45% {
+    translate: 0 -14px;
+  }
+  65% {
+    translate: 0 -5px;
+  }
+}
+
+@keyframes fade {
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes breathe {
+  0%,
+  100% {
+    scale: 0.94;
+    filter: brightness(0.9);
+  }
+  50% {
+    scale: 1.06;
+    filter: brightness(1.16);
   }
 }
 </style>

@@ -1,9 +1,15 @@
+import json
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
+from starlette.responses import StreamingResponse
 
-from llm_client import generate_lockscreen_dsl
 from material_catalog import search_materials
+from orchestrator import (
+    generate_lockscreen_with_agent_loop,
+    stream_lockscreen_with_agent_loop,
+)
 
 
 app = FastAPI(title="LockScreen DSL Generator", version="1.0.0")
@@ -31,7 +37,23 @@ def health_check():
 
 @app.post("/api/generate-lockscreen")
 def generate_lockscreen(request: GenerateLockScreenRequest):
-    return generate_lockscreen_dsl(request.prompt)
+    return generate_lockscreen_with_agent_loop(request.prompt)
+
+
+@app.post("/api/generate-lockscreen/stream")
+def generate_lockscreen_stream(request: GenerateLockScreenRequest):
+    def event_stream():
+        for event in stream_lockscreen_with_agent_loop(request.prompt):
+            yield f"data: {json.dumps(event, ensure_ascii=False)}\n\n"
+
+    return StreamingResponse(
+        event_stream(),
+        media_type="text/event-stream",
+        headers={
+            "Cache-Control": "no-cache",
+            "X-Accel-Buffering": "no",
+        },
+    )
 
 
 @app.get("/api/materials/search")

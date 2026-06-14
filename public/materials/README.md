@@ -1,9 +1,9 @@
-# SVG 素材标签说明
+# 素材标签说明
 
-> 当前接入状态：该目录已用于后端的结构化素材检索。生成流程会先按素材槽位返回 Top-K 候选，再由 LLM 从候选 `assetId` 中选择；后端会二次校验并解析真实 `src`。当前阶段不使用 embedding。
+> 当前接入状态：该目录已用于后端的结构化素材检索。生成流程会先按素材槽位返回 Top-K 静态或动画候选，再由 LLM 从候选 `assetId` 中选择；后端会二次校验并解析真实文件路径。当前阶段不使用 embedding。
 
-本目录保存锁屏 Demo 的本地 SVG 素材及其结构化目录。当前共有 151 张有效
-SVG，文件编号范围为 1–160，其中缺少 9 个编号。
+本目录保存锁屏 Demo 的本地静态 SVG、PNG 序列帧及其结构化目录。当前共有
+151 张有效 SVG，以及 1 组包含 5 张 PNG 的序列帧动画。
 
 ## 目的
 
@@ -12,7 +12,7 @@ SVG，文件编号范围为 1–160，其中缺少 9 个编号。
 ```text
 用户自然语言
   -> LLM 提取主题、主体、情绪和用途
-  -> assets.json 标签过滤与关键词检索
+  -> assets.json / animations.json 标签过滤与关键词检索
   -> 返回真实 assetId
   -> LockScreen DSL 引用素材
   -> Vue / SVG 渲染
@@ -28,6 +28,11 @@ SVG，文件编号范围为 1–160，其中缺少 9 个编号。
 public/materials/
 ├─ README.md
 ├─ assets.json
+├─ animations.json
+├─ frames/
+│  └─ star_twinkle/
+│     ├─ 01.png
+│     └─ ...
 └─ svg/
    ├─ doodle-01.svg
    └─ ...
@@ -35,8 +40,12 @@ public/materials/
 
 - `svg/`：原始素材，不修改图形内容。
 - `assets.json`：每张 SVG 对应一条结构化元数据。
+- `frames/`：按动画名称分目录保存顺序编号的 PNG 帧。
+- `animations.json`：每组连续帧对应一条动画元数据。
 - `scripts/generate-material-catalog.mjs`：从人工校正的主题信息和 SVG
   结构重新生成 `assets.json`。
+- `scripts/generate-animation-catalog.mjs`：验证帧目录并重新生成
+  `animations.json`。
 - `src/core/materialSearch.js`：标签过滤与关键词排序函数。
 
 ## 标签方法
@@ -93,6 +102,22 @@ public/materials/
 | `containsText` | 图形内部是否已有固定文字 |
 | `pathCount` | SVG path 数量，可用于复杂度判断 |
 
+动画记录额外包含：
+
+| 字段 | 作用 |
+| --- | --- |
+| `assetType` | 当前固定为 `frameSequence` |
+| `directory` | `frames/` 下的序列帧目录 |
+| `frames` | 按播放顺序排列的可信 PNG 路径 |
+| `frameCount` | 帧数量 |
+| `fps` | 默认播放帧率 |
+| `loop` | 是否循环播放 |
+| `poster` | SVG 导出和静态环境使用的代表帧 |
+
+`star_twinkle` 标签为：主体 `star`、`sparkle`；主题 `night`、`space`、
+`cute`、`dreamy`；用途 `decoration`、`animated-accent`；主要检索词包括
+“星星、闪烁、发光、星光、闪光、twinkle、glowing star”。
+
 ## 素材用途
 
 当前素材以透明底卡通贴纸为主，不适合作为全屏背景：
@@ -104,8 +129,9 @@ public/materials/
 - `callout`：可叠加短文本的对话框
 - `facePart`：嘴巴、舌头等组合部件
 
-后续 DSL 增加素材图层时，建议只保存 `assetId`，由应用根据
-`assets.json` 解析安全的本地 `src`，不要允许 LLM 自由编造文件路径。
+DSL 素材图层只允许保存可信 `assetId`。静态素材由后端解析 `src`；动画素材
+由后端解析 `frames`、`poster`、`fps` 和 `loop`。不要允许 LLM 自由编造
+文件路径、帧顺序或播放参数。
 
 ## 检索示例
 
@@ -131,7 +157,8 @@ public/materials/
 ## 维护规则
 
 1. 新增 SVG 后必须补充生成脚本中的人工语义标签。
-2. 运行 `node scripts/generate-material-catalog.mjs` 更新目录。
-3. 运行 `npm test`，确认每张 SVG 恰好有一条元数据。
-4. 不直接手改自动提取字段，避免目录与原始文件不一致。
-5. 标签词表新增同义概念前，优先复用现有标准词。
+2. 新增序列帧时，每组动画使用独立目录，并使用连续、可排序的文件名。
+3. 运行 `npm run materials:generate` 更新静态和动画目录。
+4. 运行 `npm test`，确认每张 SVG 和每组动画都恰好有一条元数据。
+5. 不直接手改自动提取字段，避免目录与原始文件不一致。
+6. 标签词表新增同义概念前，优先复用现有标准词。

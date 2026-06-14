@@ -11,6 +11,10 @@ async function loadAssets() {
   return JSON.parse(await readFile(new URL('./assets.json', materialsUrl), 'utf8'))
 }
 
+async function loadAnimations() {
+  return JSON.parse(await readFile(new URL('./animations.json', materialsUrl), 'utf8'))
+}
+
 test('catalog contains exactly one complete record for every SVG file', async () => {
   const assets = await loadAssets()
   const svgFiles = (await readdir(svgUrl)).filter((file) => file.endsWith('.svg')).sort()
@@ -67,4 +71,29 @@ test('search finds assets by Chinese keywords and structured filters', async () 
   })
 
   assert.deepEqual(ufoResults.map((asset) => asset.assetId), ['doodle-057'])
+})
+
+test('animation catalog maps every star_twinkle PNG frame in order', async () => {
+  const animations = await loadAnimations()
+  const frameDirectory = new URL('./frames/star_twinkle/', materialsUrl)
+  const pngFiles = (await readdir(frameDirectory))
+    .filter((file) => file.endsWith('.png'))
+    .sort()
+
+  assert.equal(animations.length, 1)
+  const animation = animations[0]
+  assert.equal(animation.assetId, 'frame-star-twinkle-001')
+  assert.equal(animation.assetType, 'frameSequence')
+  assert.equal(animation.frameCount, 5)
+  assert.equal(animation.width, 1254)
+  assert.equal(animation.height, 1254)
+  assert.equal(animation.transparent, true)
+  assert.equal(animation.fps, 6)
+  assert.equal(animation.loop, true)
+  assert.deepEqual(
+    animation.frames,
+    pngFiles.map((file) => `/materials/frames/star_twinkle/${file}`),
+  )
+  assert.ok(animation.keywords.includes('\u95ea\u70c1'))
+  assert.ok(animation.themes.includes('night'))
 })

@@ -4,11 +4,17 @@ from material_catalog import get_asset, load_materials, search_materials
 
 
 class MaterialCatalogTests(unittest.TestCase):
-    def test_loads_every_tagged_svg(self):
+    def test_loads_every_tagged_static_and_animation_material(self):
         materials = load_materials()
 
-        self.assertEqual(len(materials), 151)
-        self.assertEqual(len({asset["assetId"] for asset in materials}), 151)
+        self.assertEqual(len(materials), 152)
+        self.assertEqual(len({asset["assetId"] for asset in materials}), 152)
+
+        animation = get_asset("frame-star-twinkle-001")
+        self.assertEqual(animation["assetType"], "frameSequence")
+        self.assertEqual(animation["frameCount"], 5)
+        self.assertEqual(animation["fps"], 6)
+        self.assertEqual(animation["poster"], animation["frames"][2])
 
     def test_searches_each_material_slot_independently(self):
         rockets = search_materials(
@@ -49,6 +55,19 @@ class MaterialCatalogTests(unittest.TestCase):
     def test_get_asset_returns_only_catalog_entries(self):
         self.assertEqual(get_asset("doodle-057")["src"], "/materials/svg/doodle-57.svg")
         self.assertIsNone(get_asset("not-in-catalog"))
+
+    def test_searches_frame_animation_by_chinese_tags(self):
+        results = search_materials(
+            {
+                "query": "\u95ea\u70c1\u53d1\u5149\u661f\u661f",
+                "subjects": ["star"],
+                "themes": ["night"],
+            },
+            limit=5,
+        )
+
+        self.assertEqual(results[0]["assetId"], "frame-star-twinkle-001")
+        self.assertEqual(results[0]["assetType"], "frameSequence")
 
 
 if __name__ == "__main__":

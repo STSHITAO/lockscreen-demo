@@ -6,7 +6,11 @@ from pathlib import Path
 from typing import Any
 
 
-CATALOG_PATH = Path(__file__).parent.parent / "public" / "materials" / "assets.json"
+MATERIALS_PATH = Path(__file__).parent.parent / "public" / "materials"
+CATALOG_PATHS = (
+    MATERIALS_PATH / "assets.json",
+    MATERIALS_PATH / "animations.json",
+)
 SEARCH_FIELDS = (
     "subjects",
     "keywords",
@@ -49,11 +53,18 @@ def _requested(requirement: dict[str, Any], field: str) -> set[str]:
 
 @lru_cache(maxsize=1)
 def _catalog() -> tuple[dict[str, Any], ...]:
-    with CATALOG_PATH.open("r", encoding="utf-8") as catalog_file:
-        materials = json.load(catalog_file)
-    if not isinstance(materials, list):
-        raise ValueError("Material catalog must contain a JSON array")
-    return tuple(material for material in materials if isinstance(material, dict))
+    materials = []
+    for catalog_path in CATALOG_PATHS:
+        with catalog_path.open("r", encoding="utf-8") as catalog_file:
+            catalog = json.load(catalog_file)
+        if not isinstance(catalog, list):
+            raise ValueError(
+                f"Material catalog must contain a JSON array: {catalog_path.name}"
+            )
+        materials.extend(
+            material for material in catalog if isinstance(material, dict)
+        )
+    return tuple(materials)
 
 
 @lru_cache(maxsize=1)
@@ -161,6 +172,7 @@ def compact_material(material: dict[str, Any]) -> dict[str, Any]:
         key: copy.deepcopy(material.get(key))
         for key in (
             "assetId",
+            "assetType",
             "name",
             "description",
             "category",
@@ -172,5 +184,8 @@ def compact_material(material: dict[str, Any]) -> dict[str, Any]:
             "recommendedPositions",
             "visualWeight",
             "viewBox",
+            "frameCount",
+            "fps",
+            "loop",
         )
     }
