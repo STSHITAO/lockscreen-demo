@@ -77,6 +77,7 @@ def create_fallback_layer(
         "type": "shape",
         "shape": TARGET_SHAPES[canonical],
         "role": "decoration",
+        "source": "draw-agent",
         "target": canonical,
         "x": x,
         "y": y,

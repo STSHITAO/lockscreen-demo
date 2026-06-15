@@ -172,3 +172,50 @@ test('exports a stable visual state without interaction handlers', async () => {
   assert.match(svg, /data-shape="heart"/)
   assert.doesNotMatch(svg, /heart-tap|onclick|script|interaction/)
 })
+
+test('exports controlled compound shape parts', async () => {
+  const svg = await dslToSvg({
+    canvas: { width: 390, height: 844 },
+    background: { type: 'color', value: '#fff7ed' },
+    layers: [
+      {
+        id: 'draw-cat',
+        type: 'compoundShape',
+        target: 'cat',
+        x: 100,
+        y: 250,
+        width: 180,
+        height: 190,
+        parts: [
+          {
+            shape: 'ellipse',
+            x: 0.2,
+            y: 0.15,
+            width: 0.6,
+            height: 0.5,
+            fill: '#f97316',
+          },
+          {
+            shape: 'triangle',
+            points: [[0.2, 0.25], [0.32, 0.02], [0.42, 0.25]],
+            fill: '#f97316',
+          },
+          {
+            shape: 'line',
+            x: 0.3,
+            y: 0.5,
+            width: 0.4,
+            height: 0,
+            stroke: '#7c2d12',
+            strokeWidth: 0.02,
+          },
+        ],
+      },
+    ],
+  })
+
+  assert.match(svg, /data-compound-target="cat"/)
+  assert.match(svg, /<ellipse/)
+  assert.match(svg, /<polygon/)
+  assert.match(svg, /<line/)
+})

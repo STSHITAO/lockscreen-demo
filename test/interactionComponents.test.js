@@ -26,3 +26,15 @@ test('card group component exposes swipe pointer handlers', async () => {
   assert.match(source, /swipeLeft/)
   assert.match(source, /swipeRight/)
 })
+
+
+test('lockscreen preview renders controlled compound shapes', async () => {
+  const source = await readFile(
+    new URL('../src/components/LockScreenPreview.vue', import.meta.url),
+    'utf8',
+  )
+
+  assert.match(source, /compoundShape/)
+  assert.match(source, /compound-shape-svg/)
+  assert.match(source, /compoundPart/)
+})

@@ -1,6 +1,7 @@
 import copy
 from typing import Any
 
+from utils.compound_shapes import normalize_compound_parts
 
 DEFAULT_CANVAS = {"width": 390, "height": 844}
 DEFAULT_BACKGROUND = {
@@ -125,6 +126,19 @@ def validate_schema(dsl: Any) -> dict[str, Any]:
             _ensure_field(layer, "shape", "roundedRect", path, errors)
             for field, default in BOX_DEFAULTS.items():
                 _ensure_field(layer, field, default, path, errors)
+        elif layer_type == "compoundShape":
+            for field, default in BOX_DEFAULTS.items():
+                _ensure_field(layer, field, default, path, errors)
+            parts = normalize_compound_parts(layer.get("parts"))
+            if not parts:
+                errors.append(
+                    _error(
+                        f"{path}.parts",
+                        "compoundShape must contain controlled primitive parts",
+                    )
+                )
+                continue
+            layer["parts"] = parts
         else:
             errors.append(_error(f"{path}.type", "不支持的 layer.type，已移除"))
             continue

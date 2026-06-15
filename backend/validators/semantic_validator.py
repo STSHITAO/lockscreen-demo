@@ -8,6 +8,7 @@ from .layout_validator import (
     region_matches,
 )
 from utils.shape_defaults import TARGET_ALIASES
+from utils.semantic_roles import excluded_semantic_roles
 
 
 def _contains_any(text: str, keywords: tuple[str, ...]) -> bool:
@@ -31,6 +32,7 @@ def validate_semantics(
     fixed = copy.deepcopy(dsl) if isinstance(dsl, dict) else {"layers": []}
     errors: list[dict[str, Any]] = []
     text = str(prompt or "").lower()
+    excluded_roles = excluded_semantic_roles(prompt)
     theme_text = " ".join(
         (
             str(fixed.get("theme") or ""),
@@ -64,9 +66,13 @@ def validate_semantics(
             )
 
     layers = fixed.get("layers") if isinstance(fixed.get("layers"), list) else []
-    if _contains_any(text, ("weather", "天气")) and not any(
+    if (
+        "weather" not in excluded_roles
+        and _contains_any(text, ("weather", "天气"))
+        and not any(
         isinstance(layer, dict) and layer.get("role") == "weather"
         for layer in layers
+        )
     ):
         errors.append(_semantic_error("weather", "用户要求天气卡片，但 DSL 中没有 weather layer"))
 

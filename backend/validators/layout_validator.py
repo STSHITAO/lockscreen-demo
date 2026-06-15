@@ -160,8 +160,17 @@ def _is_background_layer(
     ).lower()
     width = _number(layer.get("width"))
     height = _number(layer.get("height"))
+    named_background = any(
+        name in identity for name in ("background", "bg", "backdrop")
+    )
+    large_sky = (
+        "sky" in identity
+        and width >= canvas_width * 0.8
+        and height >= canvas_height * 0.5
+    )
     return (
-        any(name in identity for name in ("background", "bg", "backdrop"))
+        named_background
+        or large_sky
         or (width >= canvas_width * 0.95 and height >= canvas_height * 0.95)
     )
 
@@ -188,7 +197,13 @@ def validate_layout(
         min_size = (
             24
             if layer.get("type")
-            in {"asset", "frameAnimation", "widget", "glassCard"}
+            in {
+                "asset",
+                "frameAnimation",
+                "widget",
+                "glassCard",
+                "compoundShape",
+            }
             else 2
         )
         resized = False
@@ -254,7 +269,8 @@ def validate_layout(
     for layer in fixed.get("layers", []):
         if (
             not isinstance(layer, dict)
-            or layer.get("type") not in {"asset", "frameAnimation", "shape"}
+            or layer.get("type")
+            not in {"asset", "frameAnimation", "shape", "compoundShape"}
             or str(layer.get("id")) in expected_layer_ids
             or _is_background_layer(layer, canvas_width, canvas_height)
         ):

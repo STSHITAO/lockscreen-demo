@@ -231,6 +231,40 @@ function assetEffectClass(layer) {
   }
 }
 
+function compoundPart(part = {}) {
+  const x = numeric(part.x) * 100
+  const y = numeric(part.y) * 100
+  const width = numeric(part.width) * 100
+  const height = numeric(part.height) * 100
+  return {
+    x,
+    y,
+    width,
+    height,
+    cx: x + width / 2,
+    cy: y + height / 2,
+    rx: width / 2,
+    ry: height / 2,
+    r: Math.min(width, height) / 2,
+    x2: x + width,
+    y2: y + height,
+    fill: part.fill || 'transparent',
+    stroke: part.stroke || 'transparent',
+    strokeWidth: Math.max(0, numeric(part.strokeWidth) * 100),
+    opacity: numeric(part.opacity, 1),
+    radius: numeric(part.radius, 0.12) * 100,
+    transform: numeric(part.rotation)
+      ? `rotate(${numeric(part.rotation)} ${x + width / 2} ${y + height / 2})`
+      : undefined,
+  }
+}
+
+function compoundPoints(part = {}) {
+  return (part.points || [])
+    .map((point) => `${numeric(point?.[0]) * 100},${numeric(point?.[1]) * 100}`)
+    .join(' ')
+}
+
 function clearFrameTimers() {
   for (const timer of frameTimers.values()) {
     window.clearInterval(timer)
@@ -357,6 +391,61 @@ function cardContent(layer) {
           @pointerup="handlePointerUp($event, layer.id)"
           @pointercancel="gestureRecognizer.cancel"
         ></div>
+
+        <svg
+          v-else-if="layer.type === 'compoundShape'"
+          v-show="isLayerVisible(layer.id)"
+          class="layer compound-shape-svg"
+          :class="[animationClass(layer), layerRuntimeClass(layer)]"
+          :style="withRuntimeStyle(assetStyle(layer), layer)"
+          viewBox="0 0 100 100"
+          preserveAspectRatio="xMidYMid meet"
+          :data-compound-target="layer.target"
+          :data-interactive-id="isInteractiveTarget(layer.id) ? layer.id : undefined"
+          @pointerdown="handlePointerDown($event, layer.id)"
+          @pointermove="handlePointerMove($event, layer.id)"
+          @pointerup="handlePointerUp($event, layer.id)"
+          @pointercancel="gestureRecognizer.cancel"
+        >
+          <template
+            v-for="(part, partIndex) in layer.parts || []"
+            :key="`${layer.id}-part-${partIndex}`"
+          >
+            <circle
+              v-if="part.shape === 'circle'"
+              v-bind="compoundPart(part)"
+            />
+            <ellipse
+              v-else-if="part.shape === 'ellipse'"
+              v-bind="compoundPart(part)"
+            />
+            <rect
+              v-else-if="part.shape === 'rect' || part.shape === 'roundedRect'"
+              v-bind="compoundPart(part)"
+              :rx="part.shape === 'roundedRect' ? compoundPart(part).radius : 0"
+              :ry="part.shape === 'roundedRect' ? compoundPart(part).radius : 0"
+            />
+            <polygon
+              v-else-if="part.shape === 'triangle' || part.shape === 'polygon'"
+              :points="compoundPoints(part)"
+              :fill="part.fill || 'transparent'"
+              :stroke="part.stroke || 'transparent'"
+              :stroke-width="numeric(part.strokeWidth) * 100"
+              :opacity="numeric(part.opacity, 1)"
+            />
+            <line
+              v-else-if="part.shape === 'line'"
+              :x1="compoundPart(part).x"
+              :y1="compoundPart(part).y"
+              :x2="compoundPart(part).x2"
+              :y2="compoundPart(part).y2"
+              :stroke="part.stroke || part.fill || '#ffffff'"
+              :stroke-width="Math.max(0.5, numeric(part.strokeWidth, 0.01) * 100)"
+              :opacity="numeric(part.opacity, 1)"
+              stroke-linecap="round"
+            />
+          </template>
+        </svg>
 
         <div
           v-else-if="layer.type === 'frameAnimation' && currentFrame(layer)"
@@ -685,6 +774,12 @@ function cardContent(layer) {
 .shape-line {
   border-radius: 999px;
   transform-origin: left center;
+}
+
+.compound-shape-svg {
+  z-index: 8;
+  overflow: visible;
+  transform-origin: center;
 }
 
 .asset-layer {

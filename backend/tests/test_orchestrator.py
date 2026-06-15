@@ -4,6 +4,13 @@ from llm_client import FALLBACK_DSL
 from orchestrator import generate_lockscreen_with_agent_loop
 
 
+def test_global_fallback_has_no_fixed_time_date_or_weather_slots():
+    assert not any(
+        layer.get("role") in {"time", "date", "weather"}
+        for layer in FALLBACK_DSL["layers"]
+    )
+
+
 def test_orchestrator_never_repairs_more_than_two_rounds():
     repair_calls = []
 
@@ -392,3 +399,64 @@ def test_orchestrator_builds_card_group_from_bottom_cards_requirement():
         interaction["trigger"]["type"]
         for interaction in result["interactions"]
     } == {"swipeLeft", "swipeRight"}
+
+
+def test_orchestrator_draws_unknown_missing_material_with_compound_agent():
+    draft = {
+        "version": "1.0",
+        "canvas": {"width": 390, "height": 844},
+        "theme": "cute",
+        "background": {"type": "color", "value": "#fda4af"},
+        "layers": [
+            {
+                "id": "title",
+                "type": "text",
+                "content": "Cat Morning",
+                "x": 195,
+                "y": 160,
+            }
+        ],
+    }
+    context = {
+        "materialCandidateGroups": [
+            {
+                "slot": "hero",
+                "requirement": {
+                    "subjects": ["cat"],
+                    "query": "orange cat",
+                    "preferredPosition": "center",
+                },
+                "candidates": [],
+            }
+        ],
+        "compoundPlanner": lambda request: {
+            "parts": [
+                {
+                    "shape": "ellipse",
+                    "x": 0.2,
+                    "y": 0.15,
+                    "width": 0.6,
+                    "height": 0.55,
+                    "fill": "#f97316",
+                },
+                {
+                    "shape": "triangle",
+                    "points": [[0.2, 0.25], [0.32, 0.02], [0.42, 0.25]],
+                    "fill": "#f97316",
+                },
+            ]
+        },
+    }
+
+    result = generate_lockscreen_with_agent_loop(
+        "cute lockscreen with an orange cat in the center",
+        draft_generator=lambda prompt: {"dsl": draft, "context": context},
+    )
+
+    cat = next(
+        layer for layer in result["layers"]
+        if layer.get("type") == "compoundShape"
+    )
+    assert cat["target"] == "cat"
+    assert cat["source"] == "draw-agent"
+    assert result["_debug"]["usedFallback"] is False

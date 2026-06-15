@@ -2,6 +2,7 @@ import copy
 from typing import Any, Callable
 
 from agents.animation_fallback_agent import apply_animation_fallbacks
+from agents.compound_draw_agent import create_compound_layer
 from agents.fallback_draw_agent import create_fallback_layer
 from agents.interaction_agent import apply_interaction_requirements
 from agents.repair_agent import repair_dsl
@@ -13,6 +14,7 @@ from llm_client import (
 from material_catalog import search_materials
 from validators import (
     validate_assets,
+    validate_composition,
     validate_interactions,
     validate_layout,
     validate_schema,
@@ -43,6 +45,7 @@ def _inject_fallback_layers(
     dsl: dict[str, Any],
     errors: list[dict[str, Any]],
     prompt: str,
+    context: dict[str, Any],
 ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     current = copy.deepcopy(dsl)
     layers = current.setdefault("layers", [])
@@ -59,22 +62,52 @@ def _inject_fallback_layers(
     for error in errors:
         if error.get("type") not in FALLBACK_ERROR_TYPES:
             continue
-        target = normalize_target(error.get("target"))
-        if not target or target in handled_targets:
+        raw_target = str(error.get("target") or "").strip()
+        target = normalize_target(raw_target)
+        target_key = target or raw_target.lower()
+        if not target_key or target_key in handled_targets:
             continue
-        if not _should_draw_fallback(error, target):
+        if not _should_draw_fallback(error, target or raw_target):
             continue
+        requirement = next(
+            (
+                group.get("requirement") or {}
+                for group in context.get("materialCandidateGroups", [])
+                if isinstance(group, dict)
+                and raw_target.lower()
+                in {
+                    str(value).strip().lower()
+                    for value in (
+                        (group.get("requirement") or {}).get("subjects") or []
+                    )
+                }
+            ),
+            {},
+        )
         position_hint = (
             error.get("expected")
-            or infer_position_hint(prompt, target)
+            or requirement.get("preferredPosition")
+            or infer_position_hint(prompt, target or raw_target)
             or "center"
         )
-        layer = create_fallback_layer(
-            target,
-            str(position_hint),
-            str(theme or ""),
-            canvas,
-        )
+        try:
+            if target:
+                layer = create_fallback_layer(
+                    target,
+                    str(position_hint),
+                    str(theme or ""),
+                    canvas,
+                )
+            else:
+                layer = create_compound_layer(
+                    raw_target,
+                    str(position_hint),
+                    str(theme or ""),
+                    canvas,
+                    planner=context.get("compoundPlanner"),
+                )
+        except (RuntimeError, TypeError, ValueError):
+            continue
         base_id = layer["id"]
         suffix = 2
         while layer["id"] in existing_ids:
@@ -83,7 +116,7 @@ def _inject_fallback_layers(
         existing_ids.add(layer["id"])
         layers.append(layer)
         added.append(copy.deepcopy(layer))
-        handled_targets.add(target)
+        handled_targets.add(target_key)
 
     return current, added
 
@@ -148,6 +181,7 @@ def _run_validators(
         lambda value: validate_assets(value, prompt, context),
         lambda value: validate_layout(value, prompt, context),
         lambda value: validate_semantics(value, prompt, context),
+        lambda value: validate_composition(value, prompt, context),
         lambda value: validate_interactions(value, prompt, context),
     )
     for validator in validators:
@@ -246,6 +280,7 @@ def generate_lockscreen_with_agent_loop(
         validation["dsl"],
         validation["errors"],
         prompt,
+        context,
     )
     if fallback_layers:
         validation = _run_validators(fallback_dsl, prompt, context)
@@ -423,6 +458,7 @@ def stream_lockscreen_with_agent_loop(
         validation["dsl"],
         validation["errors"],
         prompt,
+        context,
     )
     if fallback_layers:
         yield {

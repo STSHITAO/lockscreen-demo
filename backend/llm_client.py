@@ -13,6 +13,7 @@ from utils.animation_defaults import (
     SUPPORTED_ANIMATIONS,
     normalize_animation_requirements,
 )
+from utils.compound_shapes import normalize_compound_parts
 from utils.interaction_defaults import normalize_interaction_requirements
 
 
@@ -29,6 +30,7 @@ ALLOWED_LAYER_TYPES = {
     "glassCard",
     "asset",
     "frameAnimation",
+    "compoundShape",
 }
 ALLOWED_SHAPES = {
     "circle",
@@ -58,6 +60,7 @@ FALLBACK_DSL = {
             "id": "ambient-glow",
             "type": "shape",
             "shape": "blob",
+            "source": "fallback",
             "x": -70,
             "y": 420,
             "width": 270,
@@ -70,6 +73,7 @@ FALLBACK_DSL = {
             "id": "moon",
             "type": "shape",
             "shape": "circle",
+            "source": "fallback",
             "x": 286,
             "y": 82,
             "width": 58,
@@ -82,6 +86,7 @@ FALLBACK_DSL = {
             "id": "star-1",
             "type": "shape",
             "shape": "star",
+            "source": "fallback",
             "x": 72,
             "y": 104,
             "width": 12,
@@ -94,6 +99,7 @@ FALLBACK_DSL = {
             "id": "star-2",
             "type": "shape",
             "shape": "star",
+            "source": "fallback",
             "x": 118,
             "y": 302,
             "width": 8,
@@ -105,51 +111,13 @@ FALLBACK_DSL = {
             "id": "star-3",
             "type": "shape",
             "shape": "star",
+            "source": "fallback",
             "x": 320,
             "y": 282,
             "width": 10,
             "height": 10,
             "color": "#ffffff",
             "opacity": 0.78,
-        },
-        {
-            "id": "time",
-            "type": "text",
-            "role": "time",
-            "content": "18:30",
-            "x": 195,
-            "y": 176,
-            "fontSize": 76,
-            "fontWeight": 750,
-            "color": "#ffffff",
-            "align": "center",
-        },
-        {
-            "id": "date",
-            "type": "text",
-            "role": "date",
-            "content": "Thursday, June 11",
-            "x": 195,
-            "y": 248,
-            "fontSize": 18,
-            "fontWeight": 450,
-            "color": "rgba(255,255,255,0.78)",
-            "align": "center",
-        },
-        {
-            "id": "weather",
-            "type": "widget",
-            "role": "weather",
-            "x": 32,
-            "y": 690,
-            "width": 326,
-            "height": 104,
-            "style": "glass",
-            "content": {
-                "title": "今日天气",
-                "main": "26°C · Cloudy",
-                "icon": "☁",
-            },
         },
     ],
 }
@@ -239,6 +207,10 @@ Supported layers:
 - frameAnimation: id, type, assetId, x, y, width, height, fit, rotation,
   opacity. Do not provide frames, poster, fps, or file paths; the backend fills
   those fields from the trusted animation catalog.
+- compoundShape: id, type, target, x, y, width, height, opacity, parts. Each
+  part uses only circle, ellipse, rect, roundedRect, triangle, polygon, or line
+  with normalized 0..1 coordinates. Use at most 24 parts. Never output SVG
+  paths, HTML, CSS, XML, or free-form drawing code.
 
 Supported shapes: circle, roundedRect, blob, line, star, crescent, heart,
 cloud, sparkle, planet.
@@ -432,9 +404,52 @@ def normalize_dsl(
             continue
         safe_layer = copy.deepcopy(layer)
         safe_layer["id"] = str(safe_layer.get("id") or f"layer-{index + 1}")
+        if safe_layer.get("source") not in {
+            "system",
+            "user",
+            "model",
+            "material",
+            "draw-agent",
+            "repair",
+            "fallback",
+        }:
+            safe_layer["source"] = (
+                "material"
+                if safe_layer["type"] in {"asset", "frameAnimation"}
+                else "model"
+            )
         if safe_layer["type"] == "shape":
             if safe_layer.get("shape") not in ALLOWED_SHAPES:
                 continue
+        if safe_layer["type"] == "compoundShape":
+            parts = normalize_compound_parts(safe_layer.get("parts"))
+            if not parts:
+                continue
+            width = _clamp(safe_layer.get("width"), 48, 260, 168)
+            height = _clamp(safe_layer.get("height"), 48, 300, 176)
+            safe_layer.update(
+                {
+                    "target": str(
+                        safe_layer.get("target") or safe_layer["id"]
+                    )[:120],
+                    "x": _clamp(
+                        safe_layer.get("x"),
+                        0,
+                        max(0, 390 - width),
+                        111,
+                    ),
+                    "y": _clamp(
+                        safe_layer.get("y"),
+                        0,
+                        max(0, 844 - height),
+                        300,
+                    ),
+                    "width": width,
+                    "height": height,
+                    "opacity": _clamp(safe_layer.get("opacity"), 0, 1, 1),
+                    "parts": parts,
+                }
+            )
         if safe_layer["type"] in {"asset", "frameAnimation"}:
             asset_id = str(safe_layer.get("assetId") or "")
             material = get_asset(asset_id)
@@ -673,6 +688,7 @@ def _fallback_with_materials(
             "fit": "contain",
             "rotation": -6 if index % 2 == 0 else 6,
             "opacity": 1,
+            "source": "material",
         }
         if layer_type == "frameAnimation":
             layer.update(

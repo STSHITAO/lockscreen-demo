@@ -61,18 +61,19 @@ def _add_weather(dsl: dict[str, Any]) -> None:
         return
     dsl["layers"].append(
         {
-            "id": "weather",
+            "id": "repair-weather",
             "type": "widget",
             "role": "weather",
+            "source": "repair",
             "x": 32,
             "y": 690,
             "width": 326,
             "height": 104,
             "style": "glass",
             "content": {
-                "title": "今日天气",
-                "main": "26°C · Cloudy",
-                "icon": "☁",
+                "title": "天气",
+                "main": "天气信息",
+                "icon": "",
             },
         }
     )
@@ -85,6 +86,7 @@ def _add_shape(dsl: dict[str, Any], target: str) -> None:
                 "id": "moon",
                 "type": "shape",
                 "shape": "circle",
+                "source": "repair",
                 "x": 24,
                 "y": 64,
                 "width": 60,
@@ -99,6 +101,7 @@ def _add_shape(dsl: dict[str, Any], target: str) -> None:
                     "id": f"star-{index}",
                     "type": "shape",
                     "shape": "star",
+                    "source": "repair",
                     "x": x,
                     "y": y,
                     "width": 12,
@@ -121,6 +124,7 @@ def _add_catalog_asset(dsl: dict[str, Any], target: str) -> bool:
     layer = {
         "id": f"{target}-asset",
         "type": layer_type,
+        "source": "material",
         "assetId": material["assetId"],
         "x": 270,
         "y": 64,

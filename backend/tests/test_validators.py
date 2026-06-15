@@ -344,3 +344,26 @@ def test_semantic_validator_accepts_fallback_star_for_star():
     assert not any(
         error.get("target") == "star" for error in result["errors"]
     )
+def test_semantic_validator_respects_explicit_weather_exclusion():
+    result = validate_semantics(
+        {
+            "version": "1.0",
+            "canvas": {"width": 390, "height": 844},
+            "theme": "morning",
+            "background": {"type": "color", "value": "#fed7aa"},
+            "layers": [
+                {
+                    "id": "title",
+                    "type": "text",
+                    "content": "Morning",
+                    "x": 195,
+                    "y": 160,
+                }
+            ],
+        },
+        "Create a morning lockscreen without a weather card.",
+    )
+
+    assert not any(
+        error.get("target") == "weather" for error in result["errors"]
+    )

@@ -168,6 +168,75 @@ function renderShape(layer) {
   return `<rect x="${x}" y="${y}" width="${width}" height="${height}" rx="${number(layer.radius, 24)}" fill="${fill}" opacity="${opacity}"/>`
 }
 
+function normalized(value, fallback = 0) {
+  return Math.max(0, Math.min(1, number(value, fallback)))
+}
+
+function compoundTransform(part, x, y, width, height) {
+  const rotation = number(part.rotation)
+  if (!rotation) return ''
+  const centerX = x + width / 2
+  const centerY = y + height / 2
+  return ` transform="rotate(${rotation} ${centerX} ${centerY})"`
+}
+
+function renderCompoundPart(part, width, height) {
+  const x = normalized(part.x) * width
+  const y = normalized(part.y) * height
+  const partWidth = normalized(part.width) * width
+  const partHeight = normalized(part.height) * height
+  const fill = escapeXml(part.fill || 'transparent')
+  const stroke = escapeXml(part.stroke || 'transparent')
+  const opacity = normalized(part.opacity, 1)
+  const strokeWidth = Math.max(
+    0,
+    normalized(part.strokeWidth) * Math.min(width, height),
+  )
+  const transform = compoundTransform(
+    part,
+    x,
+    y,
+    partWidth,
+    partHeight,
+  )
+
+  if (part.shape === 'circle') {
+    return `<circle cx="${x + partWidth / 2}" cy="${y + partHeight / 2}" r="${Math.min(partWidth, partHeight) / 2}" fill="${fill}" stroke="${stroke}" stroke-width="${strokeWidth}" opacity="${opacity}"${transform}/>`
+  }
+  if (part.shape === 'ellipse') {
+    return `<ellipse cx="${x + partWidth / 2}" cy="${y + partHeight / 2}" rx="${partWidth / 2}" ry="${partHeight / 2}" fill="${fill}" stroke="${stroke}" stroke-width="${strokeWidth}" opacity="${opacity}"${transform}/>`
+  }
+  if (part.shape === 'rect' || part.shape === 'roundedRect') {
+    const radius = part.shape === 'roundedRect'
+      ? normalized(part.radius, 0.12) * Math.min(width, height)
+      : 0
+    return `<rect x="${x}" y="${y}" width="${partWidth}" height="${partHeight}" rx="${radius}" fill="${fill}" stroke="${stroke}" stroke-width="${strokeWidth}" opacity="${opacity}"${transform}/>`
+  }
+  if (part.shape === 'triangle' || part.shape === 'polygon') {
+    const points = (part.points || [])
+      .map((point) => `${normalized(point?.[0]) * width},${normalized(point?.[1]) * height}`)
+      .join(' ')
+    return `<polygon points="${points}" fill="${fill}" stroke="${stroke}" stroke-width="${strokeWidth}" opacity="${opacity}"/>`
+  }
+  if (part.shape === 'line') {
+    return `<line x1="${x}" y1="${y}" x2="${x + partWidth}" y2="${y + partHeight}" stroke="${escapeXml(part.stroke || part.fill || '#ffffff')}" stroke-width="${Math.max(0.5, strokeWidth)}" stroke-linecap="round" opacity="${opacity}"${transform}/>`
+  }
+  return ''
+}
+
+function renderCompoundShape(layer) {
+  const x = number(layer.x)
+  const y = number(layer.y)
+  const width = number(layer.width, 168)
+  const height = number(layer.height, 176)
+  const parts = Array.isArray(layer.parts)
+    ? layer.parts
+        .map((part) => renderCompoundPart(part, width, height))
+        .join('')
+    : ''
+  return `<g data-compound-target="${escapeXml(layer.target || layer.id || '')}" transform="translate(${x} ${y})" opacity="${number(layer.opacity, 1)}">${parts}</g>`
+}
+
 function contentLines(content) {
   if (typeof content === 'string') return { title: '', main: content, subtitle: '', icon: '' }
   return {
@@ -290,6 +359,7 @@ async function renderFrameAnimation(layer, loadFrameDataUrl) {
 async function renderLayer(layer, loadAssetSvg, loadFrameDataUrl) {
   if (layer?.type === 'text') return renderText(layer)
   if (layer?.type === 'shape') return renderShape(layer)
+  if (layer?.type === 'compoundShape') return renderCompoundShape(layer)
   if (layer?.type === 'widget' || layer?.type === 'glassCard') return renderCard(layer)
   if (layer?.type === 'asset') return renderAsset(layer, loadAssetSvg)
   if (layer?.type === 'frameAnimation') {
